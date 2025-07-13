@@ -126,13 +126,13 @@
     "type": "enchantment",
     "has": "WIELD",
     "condition": "ALWAYS",
-    "incoming_damage_mod": [
-      { "type": "bash", "add": -25 },
-      { "type": "cut", "add": -35 },
-      { "type": "stab", "add": -30 },
-      { "type": "bullet", "add": -40 },
-      { "type": "heat", "add": -20 },
-      { "type": "acid", "add": -20 }
+    "values": [
+      { "value": "ARMOR_BASH", "add": -25 },
+      { "value": "ARMOR_CUT", "add": -35 },
+      { "value": "ARMOR_STAB", "add": -30 },
+      { "value": "ARMOR_BULLET", "add": -40 },
+      { "value": "ARMOR_HEAT", "add": -20 },
+      { "value": "ARMOR_ACID", "add": -20 }
     ],
     "ench_effects": [ { "effect": "arcana_mech_laser_immunities", "intensity": 1 } ]
   },
@@ -183,8 +183,8 @@
   },
   {
     "id": "summon_kreck_on",
-    "type": "ITEM",
-    "subtypes": [ "TOOL" ],
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
     "name": { "str": "glyph of trickery (active)", "str_pl": "glyphs of trickery (active)" },
     "description": "A strange silver emblem, engraved with depictions of grotesque creatures.  Using it will call forth a kreck, and bind it to your will.  Hopefully.",
     "weight": "285 g",
@@ -210,8 +210,8 @@
   },
   {
     "id": "summon_blank_on",
-    "type": "ITEM",
-    "subtypes": [ "TOOL" ],
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
     "name": { "str": "glyph of the root (active)", "str_pl": "glyphs of the root (active)" },
     "description": "A strange silver emblem, engraved with depictions of alien plantlife.  Using it will call forth a triffid, and bind it to your will.  Hopefully.",
     "weight": "285 g",
@@ -237,8 +237,8 @@
   },
   {
     "id": "summon_flaming_eye_on",
-    "type": "ITEM",
-    "subtypes": [ "TOOL" ],
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
     "name": { "str": "glyph of Gehenna (active)", "str_pl": "glyphs of Gehenna (active)" },
     "description": "A strange silver emblem, engraved with a mockery of angelic figures.  Using it will call forth a flesh angel, and bind it to your will.  Hopefully.",
     "weight": "285 g",
@@ -264,8 +264,8 @@
   },
   {
     "id": "summon_hunting_horror_on",
-    "type": "ITEM",
-    "subtypes": [ "TOOL" ],
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
     "name": { "str": "glyph of Crawling Chaos (active)", "str_pl": "glyphs of Crawling Chaos (active)" },
     "description": "A strange silver emblem, erratically engraved with indecipherable runes.  Using it will call forth a hunting horror, and bind it to your will.  Hopefully.",
     "weight": "285 g",
@@ -291,8 +291,8 @@
   },
   {
     "id": "summon_dark_wyrm_on",
-    "type": "ITEM",
-    "subtypes": [ "TOOL" ],
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
     "name": { "str": "glyph of the eye (active)", "str_pl": "glyphs of the eye (active)" },
     "description": "A strange silver emblem, engraved with a serpentine motif.  Using it will call forth a dark wyrm, and bind it to your will.  Hopefully.",
     "weight": "285 g",
@@ -318,8 +318,8 @@
   },
   {
     "id": "summon_mi_go_on",
-    "type": "ITEM",
-    "subtypes": [ "TOOL" ],
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
     "name": { "str": "glyph of Yuggoth (active)", "str_pl": "glyphs of Yuggoth (active)" },
     "description": "A strange silver emblem, engraved with depictions of strange chitinous entities.  Using it will call forth a mi-go, and bind it to your will.  Hopefully.",
     "weight": "285 g",
@@ -345,8 +345,8 @@
   },
   {
     "id": "summon_jabberwock_on",
-    "type": "ITEM",
-    "subtypes": [ "TOOL" ],
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
     "name": { "str": "glyph of the golem (active)", "str_pl": "glyphs of the golem (active)" },
     "description": "A strange silver emblem, engraved with reversed writing in an unknown language.  Using it will call forth a jabberwock, and bind it to your will.  Hopefully.",
     "weight": "285 g",
@@ -372,8 +372,8 @@
   },
   {
     "id": "summon_flying_polyp_on",
-    "type": "ITEM",
-    "subtypes": [ "TOOL" ],
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
     "name": { "str": "glyph of Pnakotus (active)", "str_pl": "glyphs of Pnakotus (active)" },
     "description": "A strange silver emblem, engraved with an strange pattern resembling coral.  Using it will call forth a flying polyp, and bind it to your will.  Hopefully.",
     "weight": "285 g",
@@ -399,8 +399,8 @@
   },
   {
     "id": "summon_yugg_on",
-    "type": "ITEM",
-    "subtypes": [ "TOOL" ],
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
     "name": { "str": "glyph of Plouton (active)", "str_pl": "glyphs of Plouton (active)" },
     "description": "A strange silver emblem, engraved with depictions of ancient, cthonian wealth.  Using it will call forth a yugg, and bind it to your will.  Hopefully.",
     "weight": "285 g",
@@ -426,8 +426,8 @@
   },
   {
     "id": "summon_shoggoth_on",
-    "type": "ITEM",
-    "subtypes": [ "TOOL" ],
+    "type": "TOOL",
+    "copy-from": "silver_glyph",
     "name": { "str": "glyph of the Elder Things (active)", "str_pl": "glyphs of the Elder Things (active)" },
     "description": "A strange silver emblem, engraved with many strange eye symbols.  Using it will call forth a shoggoth, and bind it to your will.  Hopefully.  It is very difficult to control.",
     "weight": "285 g",

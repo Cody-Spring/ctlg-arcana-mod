@@ -1,7 +1,7 @@
 [
   {
     "abstract": "arcana_note_base",
-    "type": "ITEM",
+    "type": "GENERIC",
     "category": "books",
     "name": { "str": "arcana note base" },
     "weight": "3 g",
@@ -14,8 +14,7 @@
   },
   {
     "abstract": "spell_base",
-    "type": "ITEM",
-    "subtypes": [ "TOOL" ],
+    "type": "TOOL",
     "name": { "str": "magic sign base" },
     "material": [ "essencemat" ],
     "symbol": ",",
@@ -24,8 +23,7 @@
   },
   {
     "abstract": "scroll_magic_base",
-    "type": "ITEM",
-    "subtypes": [ "COMESTIBLE" ],
+    "type": "COMESTIBLE",
     "comestible_type": "MED",
     "category": "tools",
     "name": { "str": "scroll base" },
@@ -40,8 +38,7 @@
   },
   {
     "abstract": "totem_base",
-    "type": "ITEM",
-    "subtypes": [ "COMESTIBLE" ],
+    "type": "COMESTIBLE",
     "comestible_type": "MED",
     "category": "tools",
     "name": { "str": "magic seal base" },
@@ -54,8 +51,7 @@
     "flags": [ "NO_SALVAGE", "UNBREAKABLE_MELEE", "NO_INGEST", "NUTRIENT_OVERRIDE" ]
   },
   {
-    "type": "ITEM",
-    "subtypes": [ "TOOL" ],
+    "type": "TOOL",
     "abstract": "essence_surge_generator_item_abstract",
     "looks_like": "alternator_truck",
     "name": { "str": "essence surge part abstract" },

@@ -1,8 +1,7 @@
 [
   {
     "id": "essence",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "essence", "str_pl": "essence" },
     "description": "A strange glowing mote of wispy vapor.  It gives off a soothing warmth and feels surprisingly solid, almost alive even.",
     "//": "Essence in general was fairly rare pre-cataclysm, though arcanists didn't really trade it around much.  Books were the most important focus of external contacts.",
@@ -20,8 +19,7 @@
   },
   {
     "id": "essence_blood",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "blood essence", "str_pl": "blood essence" },
     "description": "A strange glowing mote of wispy vapor, drained from a living creature.",
     "volume": "5 ml",
@@ -38,8 +36,7 @@
   },
   {
     "id": "essence_dull",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "dull essence", "str_pl": "dull essence" },
     "description": "A dark, powdery bit of strange essence, formed from destructively \"consecrating\" a magic item.",
     "volume": "1 ml",
@@ -56,8 +53,7 @@
   },
   {
     "id": "essence_pure",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "crystallized essence", "str_pl": "crystallized essence" },
     "description": "A tiny sliver of brilliant crystal, formed from otherworldly essence to fuel extremely powerful magic.",
     "//": "Extremely rare pre-cataclysm, and now still highly valuable due to being very high-energy.",
@@ -75,8 +71,7 @@
   },
   {
     "id": "essence_fake",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str_sp": "displacement surge power" },
     "description": "Seeing this is a bug.",
     "material": [ "essencemat" ],
@@ -87,8 +82,7 @@
     "ammo_type": "essence_fake_type"
   },
   {
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "id": "arrow_arcana_unpowered",
     "name": { "str": "exotic arrow" },
     "symbol": "=",
@@ -112,8 +106,7 @@
     "recovery_chance": 98
   },
   {
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "id": "bolt_arcana_unpowered",
     "name": { "str": "exotic bolt" },
     "symbol": "=",
@@ -137,8 +130,7 @@
     "recovery_chance": 98
   },
   {
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "id": "arrow_arcana_flame",
     "name": { "str": "searing exotic arrow" },
     "symbol": "=",
@@ -165,8 +157,7 @@
     "effects": [ "INCENDIARY", "AMMO_ARCANA_FIRE_EFFECT" ]
   },
   {
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "id": "bolt_arcana_flame",
     "name": { "str": "searing exotic bolt" },
     "symbol": "=",
@@ -192,8 +183,7 @@
     "effects": [ "INCENDIARY", "AMMO_ARCANA_FIRE_EFFECT" ]
   },
   {
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "id": "arrow_arcana_water",
     "name": { "str": "wintry exotic arrow" },
     "symbol": "=",
@@ -218,8 +208,7 @@
     "effects": [ "BEANBAG", "AMMO_ARCANA_WATER_EFFECT" ]
   },
   {
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "id": "bolt_arcana_water",
     "name": { "str": "wintry exotic bolt" },
     "symbol": "=",
@@ -244,8 +233,7 @@
     "effects": [ "BEANBAG", "AMMO_ARCANA_WATER_EFFECT" ]
   },
   {
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "id": "arrow_arcana_earth",
     "name": { "str": "earthen exotic arrow" },
     "symbol": "=",
@@ -270,8 +258,7 @@
     "effects": [ "PARALYZEPOISON", "AMMO_ARCANA_EARTH_EFFECT" ]
   },
   {
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "id": "bolt_arcana_earth",
     "name": { "str": "earthen exotic bolt" },
     "symbol": "=",
@@ -296,8 +283,7 @@
     "effects": [ "PARALYZEPOISON", "AMMO_ARCANA_EARTH_EFFECT" ]
   },
   {
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "id": "arrow_arcana_air",
     "name": { "str": "thunderous exotic arrow" },
     "symbol": "=",
@@ -322,8 +308,7 @@
     "effects": [ "BLINDS_EYES", "WIDE", "AMMO_ARCANA_AIR_EFFECT" ]
   },
   {
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "id": "bolt_arcana_air",
     "name": { "str": "thunderous exotic bolt" },
     "symbol": "=",
@@ -348,8 +333,7 @@
     "effects": [ "BLINDS_EYES", "WIDE", "AMMO_ARCANA_AIR_EFFECT" ]
   },
   {
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "id": "primitive_magic_item_ammo",
     "name": { "str_sp": "recharge" },
     "symbol": "=",
@@ -361,8 +345,7 @@
   {
     "id": "reloaded_shot_00_arcana",
     "copy-from": "reloaded_shot_00",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "purifying 00 shot" },
     "description": "A handloaded shotgun shell, loaded with precious metals.  The addition of consecrated essence enhances its impact and focuses it into a burst of white-hot light when fired.  Immolates targets on impact and bypasses mundane armor, while leaving behind a dazzling glow.",
     "//": "Likely rare to non-existent before the cataclysm.",
@@ -375,8 +358,7 @@
   {
     "id": "flintlock_shot_arcana",
     "copy-from": "flintlock_shot",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO",
     "name": { "str": "purifying paper shot cartridge" },
     "description": "A black powder paper cartridge, loaded with precious metals.  The addition of consecrated essence enhances its impact and focuses it into a burst of white-hot light when fired.  Immolates targets on impact and bypasses mundane armor, while leaving behind a dazzling glow.",
     "price": "0 cent",
@@ -388,8 +370,7 @@
   {
     "id": "blun_shot_arcana",
     "copy-from": "blun_shot",
-    "type": "ITEM",
-    "subtypes": [ "AMMO" ],
+    "type": "AMMO", 
     "name": { "str": "purifying blunderbuss shot" },
     "description": "A prepared blunderbuss shot, loaded with precious metals.  The addition of consecrated essence enhances its impact and focuses it into a burst of white-hot light when fired.  Immolates targets on impact and bypasses mundane armor, while leaving behind a dazzling glow.",
     "price": "0 cent",

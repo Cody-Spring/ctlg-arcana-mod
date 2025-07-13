@@ -434,8 +434,8 @@
     "types": [ "CLAWS" ],
     "category": [ "DRAGONBLOOD" ],
     "encumbrance_covered": [ [ "hand_l", 5 ], [ "hand_r", 5 ] ],
-    "flags": [ "UNARMED_BONUS" ],
-    "enchantments": [ { "condition": { "not": "u_has_weapon" }, "melee_damage_bonus": [ { "type": "cut", "add": 7 } ] } ]
+	"integrated_armor": [ "integrated_claws" ],
+    "flags": [ "UNARMED_BONUS" ]
   },
   {
     "type": "mutation",

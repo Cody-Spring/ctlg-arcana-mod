@@ -10,7 +10,7 @@
     "charges_per_use": 25,
     "ammo": "primitive_magic_item_ammo_type",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "primitive_magic_item_ammo_type": 125 } } ],
-    "flags": [ "FANCY", "NO_RELOAD", "NO_UNLOAD", "TARDIS" ],
+    "flags": [ "NO_RELOAD", "NO_UNLOAD", "TARDIS" ],
     "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true } },
     "//": "Water talisman and earth talisman.  Each use has power equivalent to 250 mana.",
     "use_action": { "type": "cast_spell", "spell_id": "arcana_item_triffid_garland_empowered", "no_fail": true, "level": 0 }
@@ -26,7 +26,7 @@
     "charges_per_use": 35,
     "ammo": "primitive_magic_item_ammo_type",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "primitive_magic_item_ammo_type": 175 } } ],
-    "flags": [ "FANCY", "NO_RELOAD", "NO_UNLOAD", "TARDIS" ],
+    "flags": [ "NO_RELOAD", "NO_UNLOAD", "TARDIS" ],
     "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true } },
     "//": "Flame talisman and air talisman.  Each use has power equivalent to 350 mana.",
     "use_action": { "type": "cast_spell", "spell_id": "arcana_item_amulet_exotic_empowered", "no_fail": true, "level": 0 }
@@ -37,12 +37,12 @@
     "sub": "brooch_iridescent",
     "type": "TOOL_ARMOR",
     "name": { "str": "bolstered iridescent brooch" },
-    "description": "A hand-crafted disc brooch made from a strange, unearthly material vaguely resembling mother-of-pearl  Elemental magic has been woven into its structure, converting it into a primitive magic item.  Using it will double any armor or damage resistance you have.  It will take a long time to recharge after each use, and activating it also fatigues the user.  It can hold up to 5 uses, each use takes 45 hours to charge.",
+    "description": "A hand-crafted disc brooch made from a strange, unearthly material vaguely resembling mother-of-pearl  Elemental magic has been woven into its structure, converting it into a primitive magic item.  Using it will reduce all incoming damage by 25%.  It will take a long time to recharge after each use, and activating it also fatigues the user.  It can hold up to 5 uses, each use takes 45 hours to charge.",
     "price_postapoc": "20 USD",
     "charges_per_use": 45,
     "ammo": "primitive_magic_item_ammo_type",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "primitive_magic_item_ammo_type": 225 } } ],
-    "flags": [ "FANCY", "NO_RELOAD", "NO_UNLOAD", "TARDIS" ],
+    "flags": [ "NO_RELOAD", "NO_UNLOAD", "TARDIS" ],
     "relic_data": { "charge_info": { "recharge_type": "periodic", "time": "1 h", "regenerate_ammo": true } },
     "//": "Earth talisman and air talisman.  Each use has power equivalent to 450 mana.",
     "use_action": { "type": "cast_spell", "spell_id": "arcana_item_brooch_iridescent_empowered", "no_fail": true, "level": 0 }
@@ -63,10 +63,10 @@
     "charges_per_use": 60,
     "ammo": "essence_dull_type",
     "use_action": { "type": "cast_spell", "spell_id": "arcana_item_gilded_aegis_healing", "no_fail": true, "level": 0, "need_worn": true },
-    "relative": { "weight": 3020 },
-    "extend": { "flags": [ "NO_SALVAGE", "FANCY", "TRADER_KEEP_EQUIPPED" ] },
+    "relative": { "weight": "3020g" },
+    "extend": { "flags": [ "NO_SALVAGE", "TRADER_KEEP_EQUIPPED" ] },
     "material_thickness": 5,
-    "armor": [ { "encumbrance": 12, "coverage": 100, "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ] } ]
+    "armor": [ { "encumbrance": 12, "coverage": 90, "covers": [ "torso", "arm_l", "arm_r", "leg_l", "leg_r" ] } ]
   },
   {
     "id": "somen_clairvoyance",
@@ -129,7 +129,7 @@
       "type": "transform",
       "ammo_scale": 0
     },
-    "extend": { "flags": [ "SUN_GLASSES", "BLIND", "IR_EFFECT", "PARTIAL_DEAF" ] }
+    "extend": { "flags": [ "SUN_GLASSES", "BLIND", "PARTIAL_DEAF" ] }
   },
   {
     "id": "somen_clairvoyance_xl",
@@ -191,7 +191,7 @@
       "type": "transform",
       "ammo_scale": 0
     },
-    "extend": { "flags": [ "SUN_GLASSES", "BLIND", "IR_EFFECT", "PARTIAL_DEAF" ] }
+    "extend": { "flags": [ "SUN_GLASSES", "BLIND", "PARTIAL_DEAF" ] }
   },
   {
     "id": "armor_wyrm",
@@ -237,7 +237,7 @@
     "ammo": "essence_blood_type",
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_blood_type": 16 } } ],
     "use_action": [ { "type": "cast_spell", "spell_id": "arcana_item_wyrmskin_acid", "no_fail": true, "level": 0, "need_worn": true } ],
-    "flags": [ "OVERSIZE", "NO_SALVAGE", "ALLOWS_NATURAL_ATTACKS", "FANCY", "TRADER_KEEP_EQUIPPED", "POCKETS", "STURDY" ]
+    "flags": [ "OVERSIZE", "NO_SALVAGE", "ALLOWS_NATURAL_ATTACKS", "TRADER_KEEP_EQUIPPED", "POCKETS", "STURDY" ]
   },
   {
     "id": "revenant_crown",
@@ -334,10 +334,10 @@
         "ammo_scale": 0
       }
     ],
-    "relative": { "weight": 616, "volume": -1 },
+    "relative": { "weight": "616g", "volume": "-1ml" },
     "extend": { "flags": [ "NO_SALVAGE", "TRADER_KEEP_EQUIPPED" ] },
     "material_thickness": 6,
-    "armor": [ { "covers": [ "torso", "leg_l", "leg_r", "arm_l", "arm_r" ], "coverage": 85, "encumbrance": [ 7, 7 ] } ]
+    "armor": [ { "covers": [ "torso", "leg_l", "leg_r", "arm_l", "arm_r" ], "coverage": 100, "encumbrance": [ 7, 7 ] } ]
   },
   {
     "id": "robe_shadow_on",
@@ -398,7 +398,7 @@
     ],
     "flags": [ "OVERSIZE", "OUTER", "NO_SALVAGE" ],
     "material_thickness": 6,
-    "armor": [ { "encumbrance": 7, "coverage": 85, "covers": [ "torso" ] } ]
+    "armor": [ { "encumbrance": 7, "coverage": 100, "covers": [ "torso" ] } ]
   },
   {
     "id": "robe_shadow_xl_on",
@@ -455,7 +455,7 @@
         "encumbrance": 16
       }
     ],
-    "relative": { "weight": 210 },
+    "relative": { "weight": "210g" },
     "extend": { "flags": [ "NO_SALVAGE", "TRADER_KEEP_EQUIPPED" ] }
   },
   {
@@ -495,7 +495,7 @@
         "encumbrance": 12
       }
     ],
-    "relative": { "weight": 120 },
+    "relative": { "weight": "120g" },
     "extend": { "flags": [ "NO_SALVAGE", "ALLOWS_NATURAL_ATTACKS", "OVERSIZE", "OUTER" ] }
   },
   {
@@ -549,17 +549,7 @@
         }
       ]
     },
-    "flags": [
-      "ALLOWS_NATURAL_ATTACKS",
-      "OVERSIZE",
-      "STURDY",
-      "UNBREAKABLE_MELEE",
-      "BLOCK_WHILE_WORN",
-      "NO_SALVAGE",
-      "AURA",
-      "ONLY_ONE",
-      "POWERARMOR_COMPATIBLE"
-    ],
+    "flags": [ "ALLOWS_NATURAL_ATTACKS", "OVERSIZE", "STURDY", "BLOCK_WHILE_WORN", "NO_SALVAGE", "AURA", "POWERARMOR_COMPATIBLE" ],
     "sided": true,
     "material_thickness": 4,
     "armor": [ { "encumbrance": 10, "coverage": 80, "covers": [ "arm_l", "arm_r", "hand_l", "hand_r" ] } ]
@@ -593,7 +583,8 @@
         "WATERPROOF",
         "ZERO_WEIGHT",
         "ELECTRIC_IMMUNE",
-        "DIMENSIONAL_ANCHOR"
+        "DIMENSIONAL_ANCHOR",
+        "UNBREAKABLE"
       ]
     }
   },
@@ -667,7 +658,7 @@
       "ammo_scale": 0
     },
     "qualities": [ [ "GLARE", 1 ] ],
-    "extend": { "flags": [ "GAS_PROOF", "RAD_PROOF", "SUN_GLASSES", "BULLET_IMMUNE", "STAB_IMMUNE", "HEAT_IMMUNE" ] }
+    "extend": { "flags": [ "GAS_PROOF", "RAD_PROOF", "SUN_GLASSES", "BULLET_IMMUNE", "STAB_IMMUNE", "HEAT_IMMUNE", "UNBREAKABLE" ] }
   },
   {
     "id": "armor_wyrm_berserker",
@@ -929,7 +920,7 @@
     "relic_data": {
       "passive_effects": [ { "has": "WORN", "condition": "ACTIVE", "ench_effects": [ { "effect": "lightning_ward", "intensity": 1 } ] } ]
     },
-    "flags": [ "FANCY", "NO_SALVAGE", "TRADER_KEEP_EQUIPPED" ]
+    "flags": [ "NO_SALVAGE", "TRADER_KEEP_EQUIPPED" ]
   },
   {
     "id": "meteoric_talisman_on",

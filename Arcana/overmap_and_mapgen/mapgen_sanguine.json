@@ -1,6 +1,7 @@
 [
   {
     "type": "mapgen",
+	"method": "json",
     "om_terrain": [ "island_temple_roof" ],
     "weight": 250,
     "object": {
@@ -36,7 +37,7 @@
   },
   {
     "type": "mapgen",
-    
+    "method": "json",
     "om_terrain": [ "island_temple_1" ],
     "weight": 250,
     "object": {
@@ -74,7 +75,7 @@
   },
   {
     "type": "mapgen",
-    
+    "method": "json",
     "om_terrain": [ "island_temple_b_1" ],
     "weight": 250,
     "object": {
@@ -122,7 +123,7 @@
   },
   {
     "type": "mapgen",
-    
+    "method": "json",
     "om_terrain": [ "island_temple_b_2" ],
     "weight": 250,
     "object": {
@@ -171,7 +172,7 @@
   },
   {
     "type": "mapgen",
-    
+    "method": "json",
     "om_terrain": [ "island_temple_b_3" ],
     "weight": 250,
     "object": {
@@ -214,7 +215,7 @@
   },
   {
     "type": "mapgen",
-    
+    "method": "json",
     "om_terrain": [ "island_temple_b_4" ],
     "weight": 250,
     "object": {

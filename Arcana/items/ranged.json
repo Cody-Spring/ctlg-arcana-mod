@@ -1,8 +1,7 @@
 [
   {
     "id": "thunder_sigil",
-    "type": "ITEM",
-    "subtypes": [ "GUN", "ARTIFACT" ],
+    "type": "GUN",
     "category": "weapons",
     "name": { "str": "symbol of judgment", "str_pl": "symbols of judgment" },
     "description": "A golden band decorated with a trident motif, and inlaid with silver.  Just small enough to grasp the band in your palm, prongs between the fingers.  Holding it gives you the vague sense that this is a holy symbol, dedicated to something not of this world.  Firing it calls forth lightning.",
@@ -26,28 +25,29 @@
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_type": 5 } } ],
     "clip_size": 5,
     "reload": 400,
-    "passive_effects": [
-      {
-        "has": "WIELD",
-        "condition": "ALWAYS",
-        "hit_you_effect": [
-          {
-            "id": "arcana_react_symbol_judgment_zap",
-            "once_in": 5,
-            "message": "Sparks leap from your weapon.",
-            "npc_message": "Sparks leap from %1$s's weapon."
-          }
-        ]
-      }
-    ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "hit_you_effect": [
+            {
+              "id": "arcana_react_symbol_judgment_zap",
+              "once_in": 5,
+              "message": "Sparks leap from your weapon.",
+              "npc_message": "Sparks leap from %1$s's weapon."
+            }
+          ]
+        }
+      ]
+    },
     "ammo_effects": [ "LIGHTNING", "LIGHTNING_JUDGMENT" ],
     "flags": [ "BELT_CLIP", "NEVER_JAMS", "PRIMITIVE_RANGED_WEAPON", "MAGIC_FOCUS", "TRADER_KEEP_EQUIPPED", "NO_TURRET" ],
     "use_action": "MEDITATE"
   },
   {
     "id": "bloodscourge",
-    "type": "ITEM",
-    "subtypes": [ "GUN", "ARTIFACT" ],
+    "type": "GUN",
     "category": "weapons",
     "weapon_category": [ "QUARTERSTAVES" ],
     "name": { "str": "hellfire staff", "str_pl": "hellfire staves" },
@@ -77,20 +77,22 @@
     "ammo_effects": [ "FLAME", "STREAM", "IGNITE" ],
     "techniques": [ "WBLOCK_1", "RAPID" ],
     "use_action": { "type": "cast_spell", "spell_id": "arcana_item_sparks", "no_fail": true, "level": 0, "need_wielding": true },
-    "passive_effects": [
-      {
-        "has": "WIELD",
-        "condition": "ALWAYS",
-        "hit_you_effect": [
-          {
-            "id": "arcana_react_bloodscourge_fire",
-            "once_in": 3,
-            "message": "The air around %2$s wavers with unearthly heat in the wake of your strike!",
-            "npc_message": "%2$s suddenly bursts into flames as %1$s swings at them!"
-          }
-        ]
-      }
-    ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "hit_you_effect": [
+            {
+              "id": "arcana_react_bloodscourge_fire",
+              "once_in": 3,
+              "message": "The air around %2$s wavers with unearthly heat in the wake of your strike!",
+              "npc_message": "%2$s suddenly bursts into flames as %1$s swings at them!"
+            }
+          ]
+        }
+      ]
+    },
     "flags": [
       "NEVER_JAMS",
       "DURABLE_MELEE",
@@ -106,8 +108,7 @@
   {
     "id": "shrike_misericorde_folded",
     "looks_like": "pistol_flintlock",
-    "type": "ITEM",
-    "subtypes": [ "GUN", "ARTIFACT" ],
+    "type": "GUN",
     "category": "weapons",
     "reload_noise_volume": 10,
     "name": { "str": "shrike's misericorde (pistol)", "str_pl": "shrike's misericordes (pistol)" },
@@ -137,20 +138,22 @@
     "//": "NON_FOULING because transforming it to blade mode already resets fouling.",
     "flags": [ "NEVER_JAMS", "DURABLE_MELEE", "NO_SALVAGE", "RELOAD_ONE", "NO_UNLOAD", "NON_FOULING", "NEEDS_NO_LUBE" ],
     "ammo_effects": [ "ARCANA_SHRIKE_COLD_BULLET" ],
-    "passive_effects": [
-      {
-        "has": "WIELD",
-        "condition": "ALWAYS",
-        "hit_you_effect": [
-          {
-            "id": "arcana_react_shrike_misericorde_chill",
-            "once_in": 5,
-            "message": "An unearthly chill radiates from your weapon.",
-            "npc_message": "An unearthly chill radiates from %1$s's weapon."
-          }
-        ]
-      }
-    ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "hit_you_effect": [
+            {
+              "id": "arcana_react_shrike_misericorde_chill",
+              "once_in": 5,
+              "message": "An unearthly chill radiates from your weapon.",
+              "npc_message": "An unearthly chill radiates from %1$s's weapon."
+            }
+          ]
+        }
+      ]
+    },
     "use_action": {
       "menu_text": "Unfold into blade mode",
       "type": "transform",
@@ -162,8 +165,7 @@
   },
   {
     "id": "ethereal_crossbow",
-    "type": "ITEM",
-    "subtypes": [ "GUN" ],
+    "type": "GUN",
     "category": "weapons",
     "name": { "str": "wraithslayer crossbow" },
     "description": "A crossbow decorated with golden symbols, seemingly lacking a bowstring.  Instead it propels bright green bolts of energy with high armor penetration.",
@@ -194,8 +196,7 @@
   },
   {
     "id": "ethereal_hand_crossbow",
-    "type": "ITEM",
-    "subtypes": [ "GUN" ],
+    "type": "GUN",
     "category": "weapons",
     "name": { "str": "wraithslayer pistol crossbow" },
     "description": "A pistol crossbow decorated with golden symbols and lacking a bowstring, instead propelling bright green bolts of energy with high armor penetration.  While less effective than its full-sized counterpart, it still packs quite a punch and consumes less essence to fire.",
@@ -225,8 +226,7 @@
   },
   {
     "id": "ethereal_huge_crossbow",
-    "type": "ITEM",
-    "subtypes": [ "GUN" ],
+    "type": "GUN",
     "category": "weapons",
     "name": { "str": "grand wraithslayer" },
     "description": "A massive medieval crossbow converted to an arcane weapon, removing its winch and bowstring and richly decorated with esoteric religious iconography.  It uses a large amount of dull essence to fire extremely powerful piercing bolts of energy.  While not as slow to load as its mundane counterpart, charging it with dull essence does take longer than normal.",
@@ -257,8 +257,7 @@
   },
   {
     "id": "hand_of_armok",
-    "type": "ITEM",
-    "subtypes": [ "GUN", "ARTIFACT" ],
+    "type": "GUN",
     "category": "weapons",
     "name": { "str": "demon claw" },
     "description": "An ornate weapon resembling a clawed gauntlet, blades perpetually glowing red-hot.  Despite this, the weapon doesn't burn ones hand when grasped.  Firing it will smite your enemies and scour the land with wicked fire, to sate the god of blood.",
@@ -286,15 +285,17 @@
     "reload": 200,
     "use_action": { "type": "cast_spell", "spell_id": "arcana_item_sparks", "no_fail": true, "level": 0, "need_wielding": true },
     "ammo_effects": [ "NAPALM_CLAW" ],
-    "passive_effects": [
-      {
-        "has": "WIELD",
-        "condition": "ALWAYS",
-        "hit_you_effect": [ { "id": "arcana_react_drain_life", "once_in": 3 } ],
-        "intermittent_activation": { "effects": [ { "frequency": "25 minutes", "spell_effects": [ { "id": "arcana_react_evil_mimic" } ] } ] },
-      "ench_effects": [ { "effect": "arcana_evil_mimic_active", "intensity": 1 } ]
-      }
-    ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "hit_you_effect": [ { "id": "arcana_react_drain_life", "once_in": 3 } ],
+          "intermittent_activation": { "effects": [ { "frequency": "25 minutes", "spell_effects": [ { "id": "arcana_react_evil_mimic" } ] } ] },
+          "ench_effects": [ { "effect": "arcana_evil_mimic_active", "intensity": 1 } ]
+        }
+      ]
+    },
     "techniques": [ "WBLOCK_1" ],
     "qualities": [ [ "BUTCHER", 12 ] ],
     "flags": [
@@ -310,8 +311,7 @@
   },
   {
     "id": "scourge_staff",
-    "type": "ITEM",
-    "subtypes": [ "GUN", "ARTIFACT" ],
+    "type": "GUN",
     "category": "weapons",
     "weapon_category": [ "QUARTERSTAVES" ],
     "name": { "str": "bane staff", "str_pl": "bane staves" },
@@ -339,19 +339,21 @@
     "clip_size": 8,
     "reload": 200,
     "ammo_to_fire": 2,
-    "passive_effects": [
-      {
-        "has": "WIELD",
-        "condition": "ALWAYS",
-        "hit_you_effect": [
-          {
-            "id": "arcana_react_bane_staff_venom",
-            "message": "Sickening venom flows from your staff as you strike.",
-            "npc_message": "Sickening venom flows from %1$s's staff as they strike."
-          }
-        ]
-      }
-    ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "hit_you_effect": [
+            {
+              "id": "arcana_react_bane_staff_venom",
+              "message": "Sickening venom flows from your staff as you strike.",
+              "npc_message": "Sickening venom flows from %1$s's staff as they strike."
+            }
+          ]
+        }
+      ]
+    },
     "ammo_effects": [ "ACIDBOMB", "TOXICGAS", "ARCANA_BANE_FUNG", "ARCANA_BANE_TEAR" ],
     "techniques": [ "WBLOCK_1", "RAPID" ],
     "flags": [
@@ -369,8 +371,7 @@
   {
     "id": "electrothermal_arc_cannon",
     "looks_like": "plasma_rifle",
-    "type": "ITEM",
-    "subtypes": [ "GUN" ],
+    "type": "GUN",
     "reload_noise_volume": 10,
     "name": { "str": "electrothermal arc cannon" },
     "description": "An advanced, though somewhat bulky, energy weapon exploiting exotic phenomenon.  Fires an anomalous bolt of energy that can jump from target to target, generating an electrothermal effect that leaves burning plasma and explosive bursts of electricity in its wake.  Highly indiscriminate, but equally destructive if used in a target-rich environment.",
@@ -409,8 +410,7 @@
   {
     "id": "rift_focus_cannon",
     "looks_like": "laser_rifle",
-    "type": "ITEM",
-    "subtypes": [ "GUN" ],
+    "type": "GUN",
     "reload_noise_volume": 10,
     "symbol": "(",
     "color": "light_blue",
@@ -458,8 +458,7 @@
   },
   {
     "id": "monster_fire_fake",
-    "type": "ITEM",
-    "subtypes": [ "GUN" ],
+    "type": "GUN",
     "copy-from": "fake_item",
     "name": { "str": "monster fire weapon" },
     "description": "Used to give fire-breathing bosses in Arcana a specific degree of inaccuracy.  If you encounter one of these in the wild, it's a bug.",
@@ -475,8 +474,7 @@
   },
   {
     "id": "monster_lightning_fake",
-    "type": "ITEM",
-    "subtypes": [ "GUN" ],
+    "type": "GUN",
     "copy-from": "fake_item",
     "name": { "str": "monster lightning weapon" },
     "description": "Used to give the Host of the Archon a specific degree of inaccuracy.  If you encounter one of these in the wild, it's a bug.",
@@ -492,8 +490,7 @@
   },
   {
     "id": "monster_hammer_fake",
-    "type": "ITEM",
-    "subtypes": [ "GUN" ],
+    "type": "GUN",
     "copy-from": "fake_item",
     "name": { "str": "monster flashbang" },
     "description": "Used to give the maddened hunters a telegraphed flashbang effect.  If you encounter one of these in the wild, it's a bug.",
@@ -508,8 +505,7 @@
   },
   {
     "id": "monster_laser_fake",
-    "type": "ITEM",
-    "subtypes": [ "GUN" ],
+    "type": "GUN",
     "copy-from": "fake_item",
     "name": { "str": "monster laser weapon" },
     "description": "Used to give the Seraphic Shade a specific degree of inaccuracy.  If you encounter one of these in the wild, it's a bug.",
@@ -524,8 +520,7 @@
   },
   {
     "id": "mut_dragonfire",
-    "type": "ITEM",
-    "subtypes": [ "GUN" ],
+    "type": "GUN",
     "name": { "str": "dragonfire", "str_pl": "dragonfire" },
     "description": "Cited by dragonfire mutation, this is a pseudo item.",
     "material": [ "essencemat" ],
@@ -543,8 +538,7 @@
   },
   {
     "id": "bio_electrothermal_arc_projector_gun",
-    "type": "ITEM",
-    "subtypes": [ "GUN" ],
+    "type": "GUN",
     "name": { "str": "electrothermal arc projector" },
     "description": "this a pseudo item",
     "volume": "3 L",
@@ -565,8 +559,7 @@
   },
   {
     "id": "bio_rift_focus_projector_gun",
-    "type": "ITEM",
-    "subtypes": [ "GUN" ],
+    "type": "GUN",
     "name": { "str": "rift focus projector" },
     "description": "this a pseudo item",
     "volume": "3 L",
@@ -589,8 +582,7 @@
   {
     "id": "arcana_mech_laser",
     "looks_like": "ar15",
-    "type": "ITEM",
-    "subtypes": [ "GUN", "ARTIFACT" ],
+    "type": "GUN",
     "reload_noise_volume": 2,
     "name": { "str": "rift focus weapon system" },
     "description": "This is the integral weapon system for the Anomaly Recon Mech, focusing a small-scale hole in reality into a powerful beam.  Potent but useless against robots and some anomalous monsters, and carries the risk of opening temporary holes in reality.  Activating this weapon will let you launch a dazzling ghostly flare, illuminating an area in exchange for draining fatigue.  This flare will inflict similar forms of supernatural harm on anything caught in its radius.",
@@ -611,21 +603,23 @@
     "loudness": 50,
     "energy_drain": "240 kJ",
     "reload": 0,
-    "passive_effects": [
-      {
-        "has": "WIELD",
-        "condition": "ALWAYS",
-        "incoming_damage_mod": [
-          { "type": "bash", "add": -25 },
-          { "type": "cut", "add": -35 },
-          { "type": "stab", "add": -30 },
-          { "type": "bullet", "add": -40 },
-          { "type": "heat", "add": -20 },
-          { "type": "acid", "add": -20 }
-        ],
-        "ench_effects": [ { "effect": "arcana_mech_laser_immunities", "intensity": 1 } ]
-      }
-    ],
+    "relic_data": {
+      "passive_effects": [
+        {
+          "has": "WIELD",
+          "condition": "ALWAYS",
+          "values": [
+            { "value": "ARMOR_BASH", "add": -25 },
+            { "value": "ARMOR_CUT", "add": -35 },
+            { "value": "ARMOR_STAB", "add": -30 },
+            { "value": "ARMOR_BULLET", "add": -40 },
+            { "value": "ARMOR_HEAT", "add": -20 },
+            { "value": "ARMOR_ACID", "add": -20 }
+          ],
+          "ench_effects": [ { "effect": "arcana_mech_laser_immunities", "intensity": 1 } ]
+        }
+      ]
+    },
     "use_action": { "type": "cast_spell", "spell_id": "arcana_item_mech_flare", "no_fail": true, "level": 0, "need_wielding": true },
     "ammo_effects": [ "LASER", "PLASMA_BUBBLE", "BLINDS_EYES", "BEANBAG", "AMMO_RIFT_FOCUS_SHADOWS", "AMMO_RIFT_FOCUS_TINDALOS" ],
     "flags": [
