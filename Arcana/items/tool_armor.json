@@ -423,13 +423,13 @@
   },
   {
     "id": "gauntlets_necro",
-    "copy-from": "qt_mitten_gaunt",
+    "copy-from": "platemail_gauntlets",
     "type": "TOOL_ARMOR",
     "name": { "str": "pair of thunder gauntlets", "str_pl": "pairs of thunder gauntlets" },
     "description": "A heavy set of plate gauntlets, decorated with silver around the edges of each individual plate.  Touching the bare metal sends a faint electric tingle through you.  Use them to give a nearby enemy a powerful stunning jolt, draining health from your target.",
     "price": "600 USD",
     "price_postapoc": "50 USD",
-    "material": [ "qt_steel", "qt_steel_chain", "silver" ],
+    "material": [ "steel", "steel_chain", "silver" ],
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_type": 4 } } ],
     "charges_per_use": 1,
     "ammo": "essence_type",
@@ -445,8 +445,8 @@
     "armor": [
       {
         "material": [
-          { "type": "qt_steel", "covered_by_mat": 95, "thickness": 1.25 },
-          { "type": "qt_steel_chain", "covered_by_mat": 100, "thickness": 1.2 },
+          { "type": "steel", "covered_by_mat": 95, "thickness": 1.25 },
+          { "type": "steel_chain", "covered_by_mat": 100, "thickness": 1.2 },
           { "type": "leather", "covered_by_mat": 100, "thickness": 0.05 },
           { "type": "silver", "covered_by_mat": 20, "thickness": 0.05 }
         ],
@@ -460,7 +460,7 @@
   },
   {
     "id": "gauntlets_necro_xl",
-    "copy-from": "qt_demi_gaunt",
+    "copy-from": "platemail_gauntlets_xl",
     "looks_like": "gauntlets_necro",
     "repairs_like": "gauntlets_necro",
     "type": "TOOL_ARMOR",
@@ -468,7 +468,7 @@
     "description": "Heavy fingerless plate gauntlets, decorated with silver and leaving the user free to wear them even if they have claws or other mutations, or over gloves.  Touching the bare metal sends a faint electric tingle through you.  Use them to give a nearby enemy a powerful stunning jolt, draining health from your target.",
     "price": "600 USD",
     "price_postapoc": "50 USD",
-    "material": [ "qt_steel", "qt_steel_chain", "silver" ],
+    "material": [ "steel", "steel_chain", "silver" ],
     "warmth": 15,
     "pocket_data": [ { "pocket_type": "MAGAZINE", "rigid": true, "ammo_restriction": { "essence_type": 4 } } ],
     "charges_per_use": 1,
@@ -485,8 +485,8 @@
     "armor": [
       {
         "material": [
-          { "type": "qt_steel", "covered_by_mat": 60, "thickness": 1.25 },
-          { "type": "qt_steel_chain", "covered_by_mat": 100, "thickness": 1.2 },
+          { "type": "steel", "covered_by_mat": 60, "thickness": 1.25 },
+          { "type": "steel_chain", "covered_by_mat": 100, "thickness": 1.2 },
           { "type": "leather", "covered_by_mat": 100, "thickness": 1 },
           { "type": "silver", "covered_by_mat": 20, "thickness": 0.05 }
         ],
@@ -600,7 +600,7 @@
   {
     "id": "hauberk_jade",
     "type": "TOOL_ARMOR",
-    "copy-from": "qt_chainmail_hauberk",
+    "copy-from": "chainmail_hauberk",
     "name": { "str": "jade hauberk" },
     "description": "A set of mail armor with a mantle made from a gilded aegis draped over it, splints of copper worked into the arms and sides.  Underneath the mantle is a gorget of copper, with otherworldly green stones set into it.  The copper conducts electric shocks around you, providing passive immunity to lightning.  Activating it will grant immunity to fire and blade, reduce ballistic damage to one-tenth what you would normally take, and give resistance to other environmental hazards.",
     "//": "Requires an item that did not exist pre-cataclysm to make.",
@@ -680,7 +680,7 @@
     "price_postapoc": "60 USD",
     "to_hit": -5,
     "melee_damage": { "bash": 8 },
-    "material": [ "qt_steel", "wyrmskin" ],
+    "material": [ "steel", "wyrmskin" ],
     "symbol": "[",
     "looks_like": "armor_wyrm",
     "color": "light_gray",
@@ -727,7 +727,7 @@
     "armor": [
       {
         "material": [
-          { "type": "qt_steel", "covered_by_mat": 95, "thickness": 3.0 },
+          { "type": "steel", "covered_by_mat": 95, "thickness": 3.0 },
           { "type": "wyrmskin", "covered_by_mat": 100, "thickness": 2.0 }
         ],
         "covers": [ "torso" ],
@@ -736,7 +736,7 @@
       },
       {
         "material": [
-          { "type": "qt_steel", "covered_by_mat": 95, "thickness": 1.3 },
+          { "type": "steel", "covered_by_mat": 95, "thickness": 1.3 },
           { "type": "wyrmskin", "covered_by_mat": 100, "thickness": 2.0 }
         ],
         "covers": [ "arm_l", "arm_r", "leg_l", "leg_r" ],
@@ -745,7 +745,7 @@
       },
       {
         "material": [
-          { "type": "qt_steel", "covered_by_mat": 95, "thickness": 1.3 },
+          { "type": "steel", "covered_by_mat": 95, "thickness": 1.3 },
           { "type": "wyrmskin", "covered_by_mat": 100, "thickness": 1.5 }
         ],
         "covers": [ "hand_l", "hand_r", "foot_l", "foot_r" ],
@@ -754,7 +754,7 @@
       },
       {
         "material": [
-          { "type": "qt_steel", "covered_by_mat": 100, "thickness": 1.3 },
+          { "type": "steel", "covered_by_mat": 100, "thickness": 1.3 },
           { "type": "wyrmskin", "covered_by_mat": 100, "thickness": 1.5 }
         ],
         "covers": [ "head" ],
@@ -763,7 +763,7 @@
       },
       {
         "material": [
-          { "type": "qt_steel", "covered_by_mat": 100, "thickness": 1.3 },
+          { "type": "steel", "covered_by_mat": 100, "thickness": 1.3 },
           { "type": "wyrmskin", "covered_by_mat": 100, "thickness": 1.0 }
         ],
         "covers": [ "eyes", "mouth" ],
@@ -784,7 +784,7 @@
     "armor": [
       {
         "material": [
-          { "type": "qt_steel", "covered_by_mat": 95, "thickness": 3.0 },
+          { "type": "steel", "covered_by_mat": 95, "thickness": 3.0 },
           { "type": "wyrmskin", "covered_by_mat": 100, "thickness": 2.0 }
         ],
         "covers": [ "torso" ],
@@ -793,7 +793,7 @@
       },
       {
         "material": [
-          { "type": "qt_steel", "covered_by_mat": 95, "thickness": 1.3 },
+          { "type": "steel", "covered_by_mat": 95, "thickness": 1.3 },
           { "type": "wyrmskin", "covered_by_mat": 100, "thickness": 2.0 }
         ],
         "covers": [ "arm_l", "arm_r", "leg_l", "leg_r" ],
@@ -802,7 +802,7 @@
       },
       {
         "material": [
-          { "type": "qt_steel", "covered_by_mat": 95, "thickness": 1.3 },
+          { "type": "steel", "covered_by_mat": 95, "thickness": 1.3 },
           { "type": "wyrmskin", "covered_by_mat": 100, "thickness": 1.5 }
         ],
         "covers": [ "hand_l", "hand_r", "foot_l", "foot_r" ],
@@ -811,7 +811,7 @@
       },
       {
         "material": [
-          { "type": "qt_steel", "covered_by_mat": 100, "thickness": 1.3 },
+          { "type": "steel", "covered_by_mat": 100, "thickness": 1.3 },
           { "type": "wyrmskin", "covered_by_mat": 100, "thickness": 1.5 }
         ],
         "covers": [ "head" ],
@@ -820,7 +820,7 @@
       },
       {
         "material": [
-          { "type": "qt_steel", "covered_by_mat": 100, "thickness": 1.3 },
+          { "type": "steel", "covered_by_mat": 100, "thickness": 1.3 },
           { "type": "wyrmskin", "covered_by_mat": 100, "thickness": 1.0 }
         ],
         "covers": [ "eyes", "mouth" ],
