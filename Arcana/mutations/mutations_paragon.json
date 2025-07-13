@@ -17,7 +17,6 @@
       [ "HORROR", 15 ],
       [ "ABERRATION", 15 ],
       [ "FUNGUS", 10 ],
-      [ "LEECH_PLANT", 10 ],
       [ "MUTANT", 5 ]
     ],
     "allowed_category": [ "VEIL" ]

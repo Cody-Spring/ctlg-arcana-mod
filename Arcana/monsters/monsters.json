@@ -83,7 +83,7 @@
     "diff": 30,
     "hp": 1000,
     "speed": 90,
-    "material": [ "veggy" ],
+    "material": [ "essencemat" ],
     "symbol": "M",
     "looks_like": "mon_triffid_queen",
     "color": "green",

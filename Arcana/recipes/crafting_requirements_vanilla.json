@@ -12,17 +12,12 @@
   {
     "id": "real_great_hammers",
     "type": "requirement",
-    "extend": { "tools": [ [ [ "hexenhammer", -1 ], [ "lucern_hexenhammer", -1 ] ] ] }
+    "extend": { "tools": [ [ [ "hexenhammer", -1 ]] ] }
   },
   {
     "id": "real_hooks",
     "type": "requirement",
-    "extend": { "tools": [ [ [ "hexenhammer", -1 ], [ "lucern_hexenhammer", -1 ] ] ] }
-  },
-  {
-    "id": "real_polearms",
-    "type": "requirement",
-    "extend": { "tools": [ [ [ "lucern_hexenhammer", -1 ] ] ] }
+    "extend": { "tools": [ [ [ "hexenhammer", -1 ]] ] }
   },
   {
     "id": "real_spears",

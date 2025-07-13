@@ -19,7 +19,7 @@
       [ [ "salt", 5 ] ],
       [ [ "copper", 3 ] ],
       [ [ "lye_powder", 2 ] ],
-      [ [ "steel_chunk_any", 1, "LIST" ], [ "scrap", 2 ] ]
+      [ [ "steel_standard", 1, "LIST" ], [ "scrap", 2 ] ]
     ]
   },
   {
@@ -37,7 +37,7 @@
     "using": [ [ "blacksmithing_standard", 3 ], [ "surface_heat", 6 ], [ "arcana_essence_any", 2 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 }, { "id": "CHEM", "level": 2 } ],
     "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
-    "components": [ [ [ "salt", 15 ] ], [ [ "copper", 9 ] ], [ [ "lye_powder", 6 ] ], [ [ "steel_chunk_any", 3, "LIST" ], [ "scrap", 6 ] ] ]
+    "components": [ [ [ "salt", 15 ] ], [ [ "copper", 9 ] ], [ [ "lye_powder", 6 ] ], [ [ "steel_standard", 3, "LIST" ], [ "scrap", 6 ] ] ]
   },
   {
     "type": "recipe",
@@ -59,7 +59,7 @@
       [ [ "salt", 60 ] ],
       [ [ "copper", 36 ] ],
       [ [ "lye_powder", 24 ] ],
-      [ [ "steel_chunk_any", 12, "LIST" ], [ "scrap", 24 ] ]
+      [ [ "steel_standard", 12, "LIST" ], [ "scrap", 24 ] ]
     ]
   },
   {
@@ -82,7 +82,7 @@
       [ [ "salt", 125 ] ],
       [ [ "copper", 75 ] ],
       [ [ "lye_powder", 50 ] ],
-      [ [ "steel_chunk_any", 25, "LIST" ], [ "scrap", 50 ] ]
+      [ [ "steel_standard", 25, "LIST" ], [ "scrap", 50 ] ]
     ]
   },
   {
@@ -96,7 +96,7 @@
     "time": "30 m",
     "activity_level": "LIGHT_EXERCISE",
     "book_learn": [ [ "recipe_lab_arcana", 6 ], [ "recipe_lab_elec", 7 ] ],
-    "using": [ [ "soldering_standard", 35 ], [ "steel_chunk_any", 1 ] ],
+    "using": [ [ "soldering_standard", 35 ], [ "steel_standard", 1 ] ],
     "tools": [ [ [ "large_repairkit", 25 ], [ "small_repairkit", 50 ] ] ],
     "components": [
       [ [ "silver_small", 50 ] ],
@@ -121,7 +121,7 @@
     "time": "30 m",
     "activity_level": "LIGHT_EXERCISE",
     "book_learn": [ [ "recipe_lab_arcana", 7 ], [ "recipe_lab_elec", 8 ] ],
-    "using": [ [ "soldering_standard", 35 ], [ "steel_chunk_any", 1 ] ],
+    "using": [ [ "soldering_standard", 35 ], [ "steel_standard", 1 ] ],
     "tools": [ [ [ "large_repairkit", 25 ], [ "small_repairkit", 50 ] ] ],
     "components": [
       [ [ "silver_small", 50 ] ],
@@ -147,7 +147,7 @@
     "time": "30 m",
     "activity_level": "LIGHT_EXERCISE",
     "book_learn": [ [ "recipe_lab_arcana", 8 ], [ "recipe_lab_elec", 9 ] ],
-    "using": [ [ "soldering_standard", 35 ], [ "steel_chunk_any", 1 ] ],
+    "using": [ [ "soldering_standard", 35 ], [ "steel_standard", 1 ] ],
     "tools": [ [ [ "large_repairkit", 25 ], [ "small_repairkit", 50 ] ] ],
     "components": [
       [ [ "silver_small", 50 ] ],
@@ -208,7 +208,7 @@
       [ "arcana_purification_standard", 1 ],
       [ "welding_standard", 40 ],
       [ "soldering_standard", 20 ],
-      [ "steel_chunk_any", 3 ],
+      [ "steel_standard", 3 ],
       [ "arcana_essence_any", 4 ]
     ],
     "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
@@ -265,7 +265,7 @@
       [ "arcana_purification_standard", 1 ],
       [ "welding_standard", 40 ],
       [ "soldering_standard", 20 ],
-      [ "steel_chunk_any", 3 ],
+      [ "steel_standard", 3 ],
       [ "arcana_essence_any", 4 ]
     ],
     "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
@@ -428,34 +428,6 @@
     "flags": [ "SECRET" ]
   },
   {
-    "type": "recipe",
-    "result": "bio_essence_surge_cell",
-    "category": "CC_ARCANA",
-    "subcategory": "CSC_ARCANA_MAGITECH",
-    "skill_used": "magic",
-    "skills_required": [ [ "electronics", 6 ], [ "firstaid", 5 ], [ "mechanics", 4 ] ],
-    "difficulty": 5,
-    "time": "4 h",
-    "activity_level": "LIGHT_EXERCISE",
-    "book_learn": [ [ "recipe_lab_arcana", 4 ], [ "recipe_lab_elec", 5 ], [ "recipe_mil_augs", 5 ], [ "recipe_augs", 6 ] ],
-    "using": [
-      [ "arcana_purification_standard", 1 ],
-      [ "welding_standard", 40 ],
-      [ "soldering_standard", 20 ],
-      [ "steel_chunk_any", 3 ],
-      [ "arcana_essence_any", 4 ]
-    ],
-    "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
-    "components": [
-      [ [ "bio_metabolics", 1 ], [ "bio_ethanol", 1 ] ],
-      [ [ "cable", 60 ] ],
-      [ [ "copper", 50 ], [ "scrap_copper", 25 ] ],
-      [ [ "mana_gem_dull", 1 ], [ "mana_gem_blood", 1 ], [ "mana_gem", 1 ], [ "mana_gem_pure", 1 ] ],
-      [ [ "iron_thorn", 1 ] ]
-    ],
-    "flags": [ "SECRET" ]
-  },
-  {
     "result": "coalescent_converter",
     "type": "recipe",
     "category": "CC_ARCANA",
@@ -466,7 +438,7 @@
     "time": "25 m",
     "activity_level": "LIGHT_EXERCISE",
     "book_learn": [ [ "recipe_lab_arcana", 7 ], [ "recipe_lab_elec", 8 ] ],
-    "using": [ [ "welding_standard", 25 ], [ "steel_chunk_any", 2 ] ],
+    "using": [ [ "welding_standard", 25 ], [ "steel_standard", 2 ] ],
     "qualities": [ { "id": "HAMMER_FINE", "level": 1 }, { "id": "SAW_M", "level": 2 }, { "id": "WRENCH", "level": 1 } ],
     "components": [
       [ [ "essence_surge_generator_item", 1 ] ],
@@ -489,7 +461,7 @@
     "time": "25 m",
     "activity_level": "LIGHT_EXERCISE",
     "book_learn": [ [ "recipe_lab_arcana", 8 ], [ "book_sacrifice", 9 ], [ "book_syncretism", 9 ] ],
-    "using": [ [ "blacksmithing_standard", 25 ], [ "steel_chunk_any", 5 ] ],
+    "using": [ [ "blacksmithing_standard", 25 ], [ "steel_standard", 5 ] ],
     "qualities": [ { "id": "CHISEL", "level": 3 } ],
     "tools": [ [ [ "crucible", -1 ], [ "crucible_clay", -1 ] ] ],
     "components": [
@@ -516,14 +488,13 @@
       [ "arcana_purification_standard", 1 ],
       [ "welding_standard", 40 ],
       [ "soldering_standard", 20 ],
-      [ "steel_chunk_any", 3 ],
+      [ "steel_standard", 3 ],
       [ "arcana_essence_any", 4 ]
     ],
     "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
     "components": [
       [ [ "bio_time_freeze", 1 ], [ "bio_uncanny_dodge", 1 ] ],
       [ [ "cable", 60 ] ],
-      [ [ "gracken_knuckles", 1 ] ],
       [ [ "monster_tear", 1 ] ]
     ],
     "flags": [ "SECRET" ]
@@ -543,7 +514,7 @@
       [ "arcana_purification_standard", 1 ],
       [ "welding_standard", 40 ],
       [ "soldering_standard", 20 ],
-      [ "steel_chunk_any", 3 ],
+      [ "steel_standard", 3 ],
       [ "arcana_essence_any", 4 ]
     ],
     "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
@@ -570,7 +541,7 @@
       [ "arcana_purification_standard", 1 ],
       [ "welding_standard", 40 ],
       [ "soldering_standard", 20 ],
-      [ "steel_chunk_any", 3 ],
+      [ "steel_standard", 3 ],
       [ "arcana_essence_any", 4 ]
     ],
     "qualities": [ { "id": "WRENCH_FINE", "level": 1 }, { "id": "SCREW_FINE", "level": 1 } ],
@@ -588,7 +559,7 @@
     "time": "30 m",
     "activity_level": "LIGHT_EXERCISE",
     "book_learn": [ [ "recipe_lab_arcana", 5 ], [ "book_syncretism", 5 ], [ "book_hexenhammer", 6 ], [ "recipe_lab_elec", 6 ] ],
-    "using": [ [ "steel_chunk_any", 1 ] ],
+    "using": [ [ "steel_standard", 1 ] ],
     "qualities": [ { "id": "HAMMER", "level": 2 }, { "id": "SCREW", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
     "components": [
       [ [ "power_supply", 4 ] ],
@@ -612,7 +583,7 @@
     "time": "100 m",
     "activity_level": "LIGHT_EXERCISE",
     "book_learn": [ [ "recipe_lab_arcana", 9 ], [ "book_syncretism", 9 ], [ "recipe_lab_elec", 10 ], [ "book_summoning", 10 ] ],
-    "using": [ [ "soldering_standard", 25 ], [ "steel_chunk_any", 2 ], [ "arcana_essence_any", 9 ] ],
+    "using": [ [ "soldering_standard", 25 ], [ "steel_standard", 2 ], [ "arcana_essence_any", 9 ] ],
     "qualities": [ { "id": "SCREW", "level": 1 }, { "id": "SAW_M", "level": 1 } ],
     "components": [
       [

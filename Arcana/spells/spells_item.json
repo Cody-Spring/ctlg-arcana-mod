@@ -580,7 +580,6 @@
       "mon_shadow",
       "mon_shadow_snake",
       "mon_unseen_hunter",
-      "mon_zougar_shady",
       "mon_zombie_pupa_decoy_shady",
       "mon_spawn_raptor_shady",
       "mon_zombie_brute_ninja",
@@ -684,7 +683,6 @@
       "mon_shadow",
       "mon_shadow_snake",
       "mon_unseen_hunter",
-      "mon_zougar_shady",
       "mon_zombie_pupa_decoy_shady",
       "mon_spawn_raptor_shady",
       "mon_zombie_brute_ninja",
@@ -1943,7 +1941,7 @@
     "shape": "blast",
     "extra_effects": [
       { "id": "arcana_item_scroll_subversion_shadows", "hit_self": false },
-      { "id": "AEA_SLEEPINESS", "hit_self": false },
+      { "id": "AEA_FATIGUE", "hit_self": false },
       { "id": "arcana_item_scroll_subversion_teleport", "hit_self": false },
       { "id": "arcana_item_scroll_leftover", "hit_self": false }
     ],

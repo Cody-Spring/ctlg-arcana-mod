@@ -13,9 +13,7 @@
     "name": "GROUP_IMPACT",
     "type": "monstergroup",
     "monsters": [
-      { "monster": "mon_gracke", "weight": 150, "cost_multiplier": 0 },
       { "monster": "mon_homunculus", "weight": 100, "cost_multiplier": 0 },
-      { "monster": "mon_leech_blossom", "weight": 50, "cost_multiplier": 0 },
       { "monster": "mon_flesh_angel", "weight": 25, "cost_multiplier": 0 },
       { "monster": "mon_dementia", "weight": 675 }
     ]
@@ -36,8 +34,6 @@
     "name": "GROUP_GROVESURFACE",
     "type": "monstergroup",
     "monsters": [
-      { "monster": "mon_triffname", "weight": 300 },
-      { "monster": "mon_triffname_young", "freq": 300, "cost_multiplier": 0 },
       { "monster": "mon_fungal_fighter", "freq": 200, "cost_multiplier": 0 },
       { "monster": "mon_vinebeast", "freq": 200, "cost_multiplier": 10 }
     ]
@@ -62,7 +58,6 @@
       { "monster": "mon_shadow_snake_summoned", "weight": 150, "cost_multiplier": 0 },
       { "monster": "mon_hunting_horror", "weight": 150, "cost_multiplier": 0 },
       { "monster": "mon_kreck", "weight": 150, "cost_multiplier": 0 },
-      { "monster": "mon_gracke", "weight": 75, "cost_multiplier": 0 },
       { "monster": "mon_gozu", "weight": 75, "cost_multiplier": 0 },
       { "monster": "mon_flying_polyp", "weight": 25, "cost_multiplier": 0 },
       { "monster": "mon_flaming_eye", "weight": 25, "cost_multiplier": 0 },
@@ -100,7 +95,6 @@
     "type": "monstergroup",
     "default": "mon_dementia",
     "monsters": [
-      { "monster": "mon_gracke", "freq": 275, "cost_multiplier": 0 },
       { "monster": "mon_gozu", "freq": 100, "cost_multiplier": 0 },
       { "monster": "mon_flesh_angel", "freq": 50, "cost_multiplier": 0 },
       { "monster": "mon_feral_summoner", "freq": 50, "cost_multiplier": 0, "starts": "250 hours" },

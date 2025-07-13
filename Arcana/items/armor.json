@@ -180,7 +180,7 @@
     "volume": "50 ml",
     "//": "Arcanist trinkets are explicitly 100% post-cataclysm, minimal value but exotic, and have some minor crafting use.",
     "price_postapoc": "120 cent",
-    "material": [ "veggy" ],
+    "material": [ "essencemat" ],
     "symbol": "[",
     "looks_like": "holy_symbol_wood",
     "color": "light_red"

@@ -71,7 +71,7 @@
     "activity_level": "LIGHT_EXERCISE",
     "autolearn": true,
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "bone_twisted", 1 ], [ "gracken_knuckles", 1 ], [ "graboid_fang", 1 ], [ "monster_fang", 1 ] ] ]
+    "components": [ [ [ "bone_twisted", 1 ], [ "graboid_fang", 1 ], [ "monster_fang", 1 ] ] ]
   },
   {
     "type": "recipe",
@@ -119,7 +119,6 @@
         [ "monster_tear", 1 ],
         [ "shadow_gem", 1 ],
         [ "bone_twisted", 1 ],
-        [ "gracken_knuckles", 1 ],
         [ "wyrmskin_piece", 1 ],
         [ "monster_fang", 1 ],
         [ "iridescent_plate", 1 ],

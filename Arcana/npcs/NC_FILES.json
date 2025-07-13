@@ -194,7 +194,6 @@
       { "id": "bio_batteries", "chance": 100 },
       { "id": "bio_blade", "chance": 25 },
       { "id": "bio_carbon", "chance": 25 },
-      { "id": "bio_essence_surge_cell", "chance": 25 },
       { "id": "bio_metabolics", "chance": 25 },
       { "id": "bio_power_storage_mkII", "chance": 100 },
       { "id": "bio_targeting", "chance": 50 },
@@ -658,7 +657,6 @@
       { "item": "boots" },
       { "item": "cassock" },
       { "item": "scabbard" },
-      { "item": "helmet_plate" },
       { "item": "backpack" },
       { "item": "amulet_exotic" }
     ]
@@ -727,9 +725,9 @@
       { "item": "tshirt" },
       {
         "distribution": [
-          { "item": "trenchcoat", "prob": 25 },
+          { "item": "jacket_leather", "prob": 25 },
           { "item": "coat_lab", "prob": 25 },
-          { "item": "duster", "prob": 25 },
+          { "item": "jacket_leather", "prob": 25 },
           { "item": "cloak", "prob": 25 }
         ]
       },
@@ -778,7 +776,7 @@
         "distribution": [
           { "item": "boots", "prob": 50 },
           { "item": "dress_shoes", "prob": 25 },
-          { "item": "boots_larmor", "prob": 15 },
+          { "item": "boots", "prob": 15 },
           { "item": "boots_plate", "prob": 10 }
         ]
       },
@@ -787,7 +785,6 @@
       },
       {
         "distribution": [
-          { "item": "chainmail_hood", "prob": 50 },
           { "item": "helmet_galea", "prob": 15 },
           { "item": "helmet_nasal", "prob": 10 },
           { "item": "kufi", "prob": 10 },
@@ -799,8 +796,8 @@
       {
         "distribution": [
           { "item": "gloves_leather", "prob": 50 },
-          { "item": "gauntlets_larmor", "prob": 30 },
-          { "item": "gloves_plate", "prob": 20 }
+          { "item": "leather_gauntlets", "prob": 30 },
+          { "item": "platemail_gauntlets", "prob": 20 }
         ],
         "prob": 50
       },
@@ -856,7 +853,7 @@
       [ "jian", 2 ],
       [ "sun_sword", 10 ],
       [ "crossbow", 12 ],
-      [ "compositecrossbow", 8 ],
+      [ "compcrossbow", 8 ],
       [ "hand_crossbow", 3 ],
       [ "huge_crossbow", 2 ],
       [ "ethereal_crossbow", 25 ]
@@ -904,7 +901,7 @@
       [ "surv_hand_cannon", 10 ],
       [ "2_shot_special", 10 ],
       [ "ruger_mini", 5 ],
-      { "item": "knife_huge", "variant": "knife_butcher", "prob": 15 },
+      { "item": "knife_meat_cleaver", "variant": "knife_butcher", "prob": 15 },
       [ "machete", 10 ],
       [ "blood_athame", 5 ],
       [ "ax", 10 ],
@@ -928,7 +925,7 @@
             "prob": 25
           },
           {
-            "collection": [ { "item": "duster" }, { "item": "dress_shirt" }, { "item": "pants" }, { "item": "boots" } ],
+            "collection": [ { "item": "jacket_leather" }, { "item": "dress_shirt" }, { "item": "pants" }, { "item": "boots" } ],
             "prob": 25
           },
           { "item": "armor_wyrm", "prob": 50 }
@@ -941,7 +938,7 @@
           { "item": "bowhat", "prob": 15 },
           { "item": "hat_newsboy", "prob": 10 },
           { "item": "revenant_crown", "prob": 15 },
-          { "item": "helmet_larmor", "prob": 10 }
+          { "item": "leather_helmet", "prob": 10 }
         ]
       },
       {
@@ -1017,7 +1014,7 @@
       { "item": "socks" },
       { "item": "armor_wyrm" },
       { "item": "cloak" },
-      { "item": "gloves_plate" },
+      { "item": "platemail_gauntlets" },
       { "item": "helmet_nasal" },
       { "item": "backpack" }
     ]
@@ -1126,7 +1123,7 @@
       { "item": "bandana" },
       { "item": "sheath", "contents-item": "knife_hunting" },
       { "item": "colt_saa", "ammo-item": "reloaded_45colt_jhp", "charges": 6, "container-item": "holster" },
-      { "item": "duster" },
+      { "item": "jacket_leather" },
       { "item": "cowboy_hat" },
       { "item": "boots" }
     ]
@@ -1220,7 +1217,6 @@
       "items": [
         [ "graboid_fang", 1 ],
         [ "bone_twisted", 1 ],
-        [ "gracken_knuckles", 1 ],
         [ "wyrmskin_piece", 1 ],
         [ "monster_fang", 1 ],
         [ "iridescent_plate", 1 ]

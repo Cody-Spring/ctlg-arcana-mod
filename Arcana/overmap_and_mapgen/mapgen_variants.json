@@ -40,7 +40,7 @@
         { "type": "NPC_NO_INVESTIGATE", "faction": "wasteland_scavengers", "x": [ 0, 23 ], "y": [ 3, 20 ] }
       ],
       "items": {
-        "D": { "item": "SUS_trash_floor_light", "chance": 60 },
+        "D": { "item": "trash", "chance": 60 },
         "L": { "item": "cleaning", "chance": 80, "repeat": [ 2, 6 ] },
         "S": [ { "item": "dishes_dining", "chance": 80, "repeat": [ 1, 3 ] }, { "item": "dishes_utility", "chance": 10 } ],
         "T": { "item": "dishes_dining", "chance": 5 },
@@ -278,10 +278,10 @@
           { "item": "clothing_outdoor_torso", "chance": 50, "repeat": 2 },
           { "item": "clothing_outdoor_pants", "chance": 50, "repeat": 2 }
         ],
-        "e": { "item": "SUS_oven", "chance": 100 },
+        "e": { "item": "oven", "chance": 100 },
         "j": { "item": "bed", "chance": 70, "repeat": [ 2, 4 ] },
         "f": { "item": "office_paper", "chance": 70, "repeat": [ 2, 4 ] },
-        "F": { "item": "SUS_fridge", "chance": 60, "repeat": [ 2, 4 ] },
+        "F": { "item": "fridge", "chance": 60, "repeat": [ 2, 4 ] },
         "1": [ { "item": "SUS_dishes", "chance": 100 }, { "item": "SUS_silverware", "chance": 100 } ],
         "t": { "item": "arcana_hunt_random", "chance": 50, "repeat": 2 },
         "m": { "item": "cleansing_flame_casualties", "chance": 100 },
@@ -791,7 +791,7 @@
       },
       "furniture": { "B": "f_rack", "R": "f_dumpster", "l": "f_locker", "b": "f_bench", "c": "f_counter" },
       "place_nested": [ { "chunks": [ [ "null", 50 ], [ "abstorefront_1_spawns", 50 ] ], "x": 0, "y": 0 } ],
-      "items": { ".": { "item": "SUS_trash_floor_light", "chance": 15 } },
+      "items": { ".": { "item": "trash", "chance": 15 } },
       "vehicles": { ".": { "vehicle": "shopping_cart", "chance": 1, "status": 1 } }
     }
   },
@@ -907,14 +907,14 @@
         "]": { "item": "mansion_bookcase", "chance": 100 },
         "B": { "item": "bed", "chance": 90 },
         "C": { "item": "survivorzed_extra", "chance": 25 },
-        "F": { "item": "SUS_fridge", "chance": 50, "repeat": 5 },
-        "O": { "item": "SUS_oven", "chance": 50, "repeat": 3 },
+        "F": { "item": "fridge", "chance": 50, "repeat": 5 },
+        "O": { "item": "oven", "chance": 50, "repeat": 3 },
         "P": { "item": "mail", "chance": 10, "repeat": 3 },
         "T": { "item": "stash_drugs", "chance": 10 },
         "W": { "item": "allclothes", "chance": 75, "repeat": 5 },
         "c": { "item": "supplies_hardware", "chance": 50, "repeat": 10 },
         "n": { "item": "cannedfood", "chance": 50, "repeat": 5 },
-        "t": { "item": "SUS_trash_floor_light", "chance": 50, "repeat": 3 }
+        "t": { "item": "trash", "chance": 50, "repeat": 3 }
       }
     }
   },
@@ -986,7 +986,7 @@
         { "group": "unaligned_arcanist_books_postapoc", "x": [ 9, 13 ], "y": 15, "chance": 30, "repeat": 5 },
         { "group": "arcana_hunt_random", "x": [ 9, 13 ], "y": 15, "chance": 30, "repeat": 3 },
         { "item": "bowl_pewter", "x": [ 16, 17 ], "y": [ 19, 20 ] },
-        { "item": "knife_huge", "variant": "knife_butcher", "x": [ 16, 17 ], "y": [ 19, 20 ] },
+        { "item": "knife_meat_cleaver", "variant": "knife_butcher", "x": [ 16, 17 ], "y": [ 19, 20 ] },
         { "item": "lighter", "x": [ 16, 17 ], "y": [ 19, 20 ] },
         { "group": "summoner_casualties_fresh", "x": [ 16, 17 ], "y": [ 19, 20 ] }
       ],
@@ -1143,15 +1143,15 @@
         "[": [ { "item": "homebooks", "chance": 100, "repeat": [ 1, 3 ] }, { "item": "religious_books", "chance": 90 } ],
         "]": { "item": "mansion_bookcase", "chance": 100 },
         "B": { "item": "bed", "chance": 90 },
-        "F": { "item": "SUS_fridge", "chance": 50, "repeat": 5 },
-        "O": { "item": "SUS_oven", "chance": 50, "repeat": 3 },
+        "F": { "item": "fridge", "chance": 50, "repeat": 5 },
+        "O": { "item": "oven", "chance": 50, "repeat": 3 },
         "P": { "item": "mail", "chance": 10, "repeat": 3 },
         "R": [ { "item": "coats_unisex", "chance": 90 }, { "item": "hats_unisex", "chance": 75 } ],
         "W": { "item": "allclothes", "chance": 75, "repeat": 5 },
         "d": [ { "item": "clothing_outdoor_torso", "chance": 75 }, { "item": "clothing_outdoor_pants", "chance": 75 } ],
         "n": { "item": "cannedfood", "chance": 50, "repeat": 5 },
         "r": { "item": "magic_crafting", "chance": 100, "repeat": [ 2, 4 ] },
-        "t": { "item": "SUS_trash_floor_light", "chance": 50, "repeat": 3 }
+        "t": { "item": "trash", "chance": 50, "repeat": 3 }
       },
       "place_monsters": [ { "monster": "GROUP_ZOMBIE", "x": [ 2, 21 ], "y": [ 7, 18 ], "chance": 2 } ]
     }
@@ -1305,7 +1305,7 @@
       "terrain": { "_": "t_rock_floor" },
       "items": {
         "l": [ { "item": "guns_milspec", "chance": 10 }, { "item": "ammo_milspec", "chance": 70 } ],
-        "_": { "item": "SUS_trash_metal", "chance": 15 }
+        "_": { "item": "wreckage", "chance": 15 }
       },
       "place_loot": [
         { "group": "remains_human_generic", "x": [ 18, 19 ], "y": [ 7, 9 ] },
@@ -1786,7 +1786,7 @@
       },
       "toilets": { "T": {  } },
       "place_items": [
-        { "item": "SUS_fridge_snacks", "x": 21, "y": 15, "chance": 80, "repeat": 8 },
+        { "item": "fridgesnacks", "x": 21, "y": 15, "chance": 80, "repeat": 8 },
         { "item": "elecsto_cameras", "x": [ 3, 6 ], "y": 8, "chance": 80, "repeat": 2 },
         { "item": "bionics_common", "x": [ 9, 12 ], "y": 8, "chance": 60, "repeat": 2 },
         { "item": "elecsto_lights", "x": 2, "y": [ 9, 12 ], "chance": 80, "repeat": 3 },
@@ -1806,8 +1806,8 @@
         { "item": "snacks", "x": 16, "y": 9, "chance": 85 },
         { "item": "magazines", "x": 16, "y": 9, "chance": 60, "repeat": 4 },
         { "item": "electronics", "x": 21, "y": [ 12, 13 ], "chance": 85, "repeat": 2 },
-        { "item": "SUS_trash_floor_light", "x": 17, "y": 15, "chance": 65 },
-        { "item": "SUS_trash_floor_light", "x": [ 15, 17 ], "y": [ 20, 21 ], "chance": 80 },
+        { "item": "trash", "x": 17, "y": 15, "chance": 65 },
+        { "item": "trash", "x": [ 15, 17 ], "y": [ 20, 21 ], "chance": 80 },
         { "item": "tools_science", "x": 17, "y": 15, "chance": 50, "repeat": 2 },
         { "item": "supplies_electronics", "x": 17, "y": 15, "chance": 50, "repeat": 2 },
         { "item": "magic_crafting", "x": 17, "y": 15, "chance": 50, "repeat": 2 },
@@ -2383,7 +2383,7 @@
         "c": { "items": [ { "item": "tools_electronics", "chance": 50, "repeat": 2 } ] }
       },
       "place_loot": [
-        { "group": "SUS_office_filing_cabinet", "x": [ 18, 19 ], "y": [ 3, 4 ], "chance": 50, "repeat": 20 },
+        { "group": "file_room", "x": [ 18, 19 ], "y": [ 3, 4 ], "chance": 50, "repeat": 20 },
         { "item": "arcane_purifier_intel_2", "x": [ 18, 19 ], "y": [ 6, 7 ] }
       ],
       "place_monster": [
@@ -2461,7 +2461,7 @@
           { "item": "robots", "chance": 10, "repeat": 2 },
           { "item": "supplies_electronics", "chance": 50, "repeat": 3 }
         ],
-        "t": { "item": "SUS_trash_floor_light", "chance": 75, "repeat": 3 }
+        "t": { "item": "trash", "chance": 75, "repeat": 3 }
       },
       "place_loot": [
         { "group": "magazines", "x": 4, "y": 13, "chance": 50, "repeat": 3 },
@@ -2906,7 +2906,7 @@
       "items": { ".": [ { "item": "magic_crafting", "chance": 25 } ] },
       "place_loot": [ { "item": "chunk_sulfur", "x": [ 0, 4 ], "y": [ 1, 5 ], "chance": 50, "repeat": 4 } ],
       "place_monster": [
-        { "monster": [ "mon_kreck", "mon_blank", "mon_gracke", "mon_gozu" ], "x": [ 0, 4 ], "y": [ 1, 5 ], "repeat": [ 1, 2 ] }
+        { "monster": [ "mon_kreck", "mon_blank", "mon_gozu" ], "x": [ 0, 4 ], "y": [ 1, 5 ], "repeat": [ 1, 2 ] }
       ]
     }
   },
@@ -3016,7 +3016,6 @@
           "monster": [
             "mon_bear",
             "mon_boar_wild",
-            "mon_cougar",
             "mon_wolf",
             "mon_rattlesnake_giant",
             "mon_dragonfly_giant",

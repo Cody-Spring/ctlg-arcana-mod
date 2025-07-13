@@ -344,7 +344,6 @@
       "items": [
         [ "bio_electrothermal_arc_projector", 1 ],
         [ "bio_rift_focus_projector", 1 ],
-        [ "bio_essence_surge_cell", 1 ],
         [ "bio_temporal_stimulation", 1 ],
         [ "bio_life_sign_suppression", 1 ],
         [ "bio_kinetic_amplifier", 1 ]
@@ -375,7 +374,7 @@
     "id": "bionics_op2_utl",
     "copy-from": "bionics_op2_utl",
     "type": "item_group",
-    "extend": { "items": [ [ "bio_temporal_stimulation", 4 ], [ "bio_essence_surge_cell", 1 ] ] }
+    "extend": { "items": [ [ "bio_temporal_stimulation", 4 ] ] }
   },
   {
     "type": "item_group",

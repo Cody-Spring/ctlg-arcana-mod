@@ -66,12 +66,6 @@
     "death_drops": "mon_zombie_shady_death_drops"
   },
   {
-    "id": "mon_zougar_shady",
-    "type": "MONSTER",
-    "copy-from": "mon_zougar_shady",
-    "death_drops": "mon_zougar_shady_death_drops"
-  },
-  {
     "id": "mon_zombie_brute_ninja",
     "copy-from": "mon_zombie_brute_ninja",
     "type": "MONSTER",
@@ -255,40 +249,10 @@
     "death_drops": "mon_triffid_heart_death_drops"
   },
   {
-    "id": "mon_fungaloid",
-    "copy-from": "mon_fungaloid",
-    "type": "MONSTER",
-    "death_drops": "mon_fungaloid_death_drops"
-  },
-  {
-    "id": "mon_fungaloid_young",
-    "copy-from": "mon_fungaloid_young",
-    "type": "MONSTER",
-    "death_drops": "mon_fungaloid_young_death_drops"
-  },
-  {
-    "id": "mon_fungaloid_queen",
-    "copy-from": "mon_fungaloid_queen",
-    "type": "MONSTER",
-    "death_drops": "mon_fungaloid_queen_death_drops"
-  },
-  {
-    "id": "mon_fungaloid_seeder",
-    "copy-from": "mon_fungaloid_seeder",
-    "type": "MONSTER",
-    "death_drops": "mon_fungaloid_seeder_death_drops"
-  },
-  {
     "id": "mon_fungal_tendril",
     "copy-from": "mon_fungal_tendril",
     "type": "MONSTER",
     "death_drops": "mon_fungal_tendril_death_drops"
-  },
-  {
-    "id": "mon_fungal_blossom",
-    "copy-from": "mon_fungal_blossom",
-    "type": "MONSTER",
-    "death_drops": "mon_fungaloid_blossom_death_drops"
   },
   {
     "id": "mon_blob_brain",
@@ -531,13 +495,6 @@
     "extend": { "categories": [ "CLASSIC" ] }
   },
   {
-    "id": "mon_gracke",
-    "copy-from": "mon_gracke",
-    "type": "MONSTER",
-    "death_drops": "mon_gracke_death_drops",
-    "extend": { "categories": [ "CLASSIC" ] }
-  },
-  {
     "id": "mon_blank",
     "copy-from": "mon_blank",
     "type": "MONSTER",
@@ -568,20 +525,6 @@
     "melee_damage": [ { "damage_type": "cold", "amount": 9 } ],
     "death_drops": "mon_darkman_death_drops",
     "extend": { "flags": [ "COLDPROOF" ], "categories": [ "CLASSIC" ] }
-  },
-  {
-    "id": "mon_breather_hub",
-    "copy-from": "mon_breather_hub",
-    "type": "MONSTER",
-    "death_drops": "mon_breather_hub_death_drops",
-    "extend": { "categories": [ "CLASSIC" ] }
-  },
-  {
-    "id": "mon_breather",
-    "copy-from": "mon_breather",
-    "type": "MONSTER",
-    "death_drops": "mon_breather_death_drops",
-    "extend": { "categories": [ "CLASSIC" ] }
   },
   {
     "id": "mon_shadow_snake",
@@ -888,70 +831,10 @@
     "death_drops": "mon_skeleton_brute_death_drops"
   },
   {
-    "id": "mon_leech_blossom",
-    "copy-from": "mon_leech_blossom",
+    "id": "mon_broken_cyborg",
+    "copy-from": "mon_broken_cyborg",
     "type": "MONSTER",
-    "death_drops": "mon_leech_blossom_death_drops"
-  },
-  {
-    "id": "mon_leech_stalk",
-    "copy-from": "mon_leech_stalk",
-    "type": "MONSTER",
-    "death_drops": "mon_leech_stalk_death_drops"
-  },
-  {
-    "id": "mon_leech_radio",
-    "copy-from": "mon_leech_radio",
-    "type": "MONSTER",
-    "death_drops": "mon_leech_radio_death_drops"
-  },
-  {
-    "id": "mon_leech_pod_cluster",
-    "copy-from": "mon_leech_pod_cluster",
-    "type": "MONSTER",
-    "death_drops": "mon_leech_pod_cluster_death_drops"
-  },
-  {
-    "id": "mon_leech_root_runner",
-    "copy-from": "mon_leech_root_runner",
-    "type": "MONSTER",
-    "death_drops": "mon_leech_root_runner_death_drops"
-  },
-  {
-    "id": "mon_leech_root_drone",
-    "copy-from": "mon_leech_root_drone",
-    "type": "MONSTER",
-    "death_drops": "mon_leech_root_drone_death_drops"
-  },
-  {
-    "id": "mon_exodii_worker",
-    "copy-from": "mon_exodii_worker",
-    "type": "MONSTER",
-    "death_drops": "mon_exodii_worker_death_drops"
-  },
-  {
-    "id": "mon_exodii_quad",
-    "copy-from": "mon_exodii_quad",
-    "type": "MONSTER",
-    "death_drops": "mon_exodii_quad_death_drops"
-  },
-  {
-    "id": "mon_zomborg",
-    "copy-from": "mon_zomborg",
-    "type": "MONSTER",
-    "death_drops": "mon_zomborg_death_drops"
-  },
-  {
-    "id": "exodii_sniper_drone",
-    "copy-from": "exodii_sniper_drone",
-    "type": "MONSTER",
-    "death_drops": "exodii_sniper_drone_death_drops"
-  },
-  {
-    "id": "mon_exodii_turret",
-    "copy-from": "mon_exodii_turret",
-    "type": "MONSTER",
-    "death_drops": "mon_exodii_turret_death_drops"
+    "death_drops": "mon_broken_cyborg_death_drops"
   },
   {
     "id": "mon_zombie_soldier_blackops_1",
@@ -978,64 +861,10 @@
     "death_drops": "mon_zombie_soldier_acid_2_death_drops"
   },
   {
-    "id": "mon_unseen_hunter",
-    "copy-from": "mon_unseen_hunter",
-    "type": "MONSTER",
-    "death_drops": "mon_unseen_hunter_death_drops"
-  },
-  {
-    "id": "mon_shifting_mass",
-    "copy-from": "mon_shifting_mass",
-    "type": "MONSTER",
-    "death_drops": "mon_shifting_mass_death_drops"
-  },
-  {
-    "id": "mon_impossible_shape",
-    "copy-from": "mon_impossible_shape",
-    "type": "MONSTER",
-    "death_drops": "mon_impossible_shape_death_drops"
-  },
-  {
-    "id": "mon_absence",
-    "copy-from": "mon_absence",
-    "type": "MONSTER",
-    "death_drops": "mon_absence_death_drops"
-  },
-  {
-    "id": "mon_giant_appendage",
-    "copy-from": "mon_giant_appendage",
-    "type": "MONSTER",
-    "death_drops": "mon_giant_appendage_death_drops"
-  },
-  {
-    "id": "mon_memory",
-    "copy-from": "mon_memory",
-    "type": "MONSTER",
-    "death_drops": "mon_memory_death_drops"
-  },
-  {
-    "id": "mon_swarm_structure",
-    "copy-from": "mon_swarm_structure",
-    "type": "MONSTER",
-    "death_drops": "mon_swarm_structure_death_drops"
-  },
-  {
-    "id": "mon_twisting_blade",
-    "copy-from": "mon_twisting_blade",
-    "type": "MONSTER",
-    "death_drops": "mon_twisting_blade_death_drops"
-  },
-  {
     "id": "mon_chud",
     "copy-from": "mon_chud",
     "type": "MONSTER",
     "death_drops": "mon_chud_death_drops"
-  },
-  {
-    "id": "mon_fungaloid_shambler",
-    "copy-from": "mon_fungaloid_shambler",
-    "type": "MONSTER",
-    "death_drops": "mon_fungaloid_shambler_death_drops"
   },
   {
     "id": "mon_octupus_stalker",
@@ -1054,24 +883,6 @@
     "copy-from": "mon_kraken_queen",
     "type": "MONSTER",
     "death_drops": "mon_kraken_queen_death_drops"
-  },
-  {
-    "id": "mon_archunk_weak",
-    "copy-from": "mon_archunk_weak",
-    "type": "MONSTER",
-    "death_drops": "mon_archunk_weak_death_drops"
-  },
-  {
-    "id": "mon_archunk_medium",
-    "copy-from": "mon_archunk_medium",
-    "type": "MONSTER",
-    "death_drops": "mon_archunk_medium_death_drops"
-  },
-  {
-    "id": "mon_archunk_strong",
-    "copy-from": "mon_archunk_strong",
-    "type": "MONSTER",
-    "death_drops": "mon_archunk_strong_death_drops"
   },
   {
     "id": "mon_hallucinator",
@@ -1120,12 +931,6 @@
     "copy-from": "mon_zombear",
     "type": "MONSTER",
     "death_drops": "mon_zombear_death_drops"
-  },
-  {
-    "id": "mon_zougar",
-    "copy-from": "mon_zougar",
-    "type": "MONSTER",
-    "death_drops": "mon_zougar_death_drops"
   },
   {
     "id": "mon_cat_mutant_prism",

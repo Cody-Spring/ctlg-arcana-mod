@@ -57,7 +57,6 @@
             { "item": "bone_twisted", "prob": 20 },
             { "item": "vortex_shard", "prob": 20 },
             { "item": "wyrmskin_piece", "prob": 20 },
-            { "item": "gracken_knuckles", "prob": 20 },
             { "item": "iridescent_plate", "prob": 20 }
           ]
         },
@@ -211,7 +210,6 @@
         { "distribution": [ { "item": "milk", "prob": 9 }, { "item": "trumpet", "prob": 1 } ] },
         {
           "distribution": [
-            { "item": "gracken_knuckles", "prob": 50 },
             { "item": "bone_twisted", "prob": 25 },
             { "item": "monster_fang", "prob": 15 },
             { "item": "graboid_fang", "prob": 10 }

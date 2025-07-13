@@ -97,7 +97,6 @@
             "id": [
               "bio_electrothermal_arc_projector",
               "bio_rift_focus_projector",
-              "bio_essence_surge_cell",
               "bio_temporal_stimulation",
               "bio_life_sign_suppression"
             ],
@@ -153,7 +152,6 @@
           { "id": "monster_tear", "fg": 80 },
           { "id": "shadow_gem", "fg": 81 },
           { "id": "bone_twisted", "fg": 82 },
-          { "id": "gracken_knuckles", "fg": 83 },
           { "id": "wyrmskin_piece", "fg": 84 },
           { "id": "monster_fang", "fg": 85 },
           { "id": "iridescent_plate", "fg": 86 },

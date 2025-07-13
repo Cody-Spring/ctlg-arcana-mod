@@ -67,7 +67,7 @@
     "name": { "str": "inflorescent root" },
     "description": "A twisted cluster of otherworldly roots, covered in small outgrowths blooming into faint indigo flowers.  It might be useful, or it could be made into a trophy of some sort.",
     "price_postapoc": "5 USD",
-    "material": [ "veggy" ],
+    "material": [ "essencemat" ],
     "weight": "120 g",
     "volume": "250 ml"
   },
@@ -81,7 +81,7 @@
     "name": { "str": "scarlet flower" },
     "description": "A vibrant flower fallen from some otherworldly fauna, still in bloom.  It might be useful, or it could be made into a trophy of some sort.",
     "price_postapoc": "5 USD",
-    "material": [ "veggy" ],
+    "material": [ "essencemat" ],
     "weight": "60 g",
     "volume": "250 ml"
   },
@@ -201,22 +201,6 @@
     "material": [ "bone", "hflesh" ],
     "volume": "250 ml",
     "price_postapoc": "5 USD"
-  },
-  {
-    "type": "GENERIC",
-    "id": "gracken_knuckles",
-    "category": "other",
-    "symbol": "*",
-    "looks_like": "bone_human",
-    "color": "white",
-    "//": "Be glad I didn't name it gracked knucklebones for pun value.",
-    "name": { "str": "cracked knucklebones", "str_pl": "cracked knucklebones" },
-    "description": "A few splintered chunks of finger bones from some sort of monstrous creature, torn away and stripped of flesh from the force of its unnatural death throes.  It might be useful, or it could be made into a trophy of some sort.",
-    "flags": [ "NO_SALVAGE" ],
-    "price_postapoc": "5 USD",
-    "material": [ "bone" ],
-    "weight": "225 g",
-    "volume": "250 ml"
   },
   {
     "type": "GENERIC",
@@ -473,13 +457,6 @@
     "copy-from": "AID_abstract",
     "name": { "str_sp": "Rift Focus Projector CBM installation data" },
     "description": "Precise step-by-step instructions and other required data for installation of Rift Focus Projector CBM, stored on a data card of proprietary form-factor, designed to be used extensively by an Autodoc, and allowing bionic installation with minimal failure chance.  Integrated security subroutine renders it unusable after installation."
-  },
-  {
-    "id": "AID_bio_essence_surge_cell",
-    "type": "GENERIC",
-    "copy-from": "AID_abstract",
-    "name": { "str_sp": "Essence Surge Cell CBM installation data" },
-    "description": "Precise step-by-step instructions and other required data for installation of Essence Surge Cell CBM, stored on a data card of proprietary form-factor, designed to be used extensively by an Autodoc, and allowing bionic installation with minimal failure chance.  Integrated security subroutine renders it unusable after installation."
   },
   {
     "id": "AID_bio_temporal_stimulation",

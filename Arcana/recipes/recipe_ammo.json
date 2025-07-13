@@ -62,7 +62,6 @@
         [ "monster_tear", 1 ],
         [ "shadow_gem", 1 ],
         [ "bone_twisted", 1 ],
-        [ "gracken_knuckles", 1 ],
         [ "wyrmskin_piece", 1 ],
         [ "monster_fang", 1 ],
         [ "iridescent_plate", 1 ],
@@ -295,7 +294,6 @@
       [ [ "stick", 2 ], [ "broom", 2 ], [ "2x4", 2 ], [ "bee_sting", 2 ] ],
       [
         [ "bone_twisted", 1 ],
-        [ "gracken_knuckles", 1 ],
         [ "graboid_fang", 1 ],
         [ "monster_fang", 1 ],
         [ "iron_thorn", 1 ],
@@ -326,7 +324,6 @@
       [ [ "stick", 2 ], [ "broom", 2 ], [ "2x4", 2 ], [ "bee_sting", 2 ] ],
       [
         [ "bone_twisted", 1 ],
-        [ "gracken_knuckles", 1 ],
         [ "graboid_fang", 1 ],
         [ "monster_fang", 1 ],
         [ "iron_thorn", 1 ],

@@ -108,11 +108,6 @@
         "topic": "TALK_BONE_SEER_POWER_OFFER_BONE_TWISTED"
       },
       {
-        "text": "These are the finger bones of a creature touched by The Beyond.  Would that suffice?",
-        "condition": { "u_has_item": "gracken_knuckles" },
-        "topic": "TALK_BONE_SEER_POWER_OFFER_GRACKEN_KNUCKLES"
-      },
-      {
         "text": "What do you make of this?  It's a root with the otherworldly woven into its every fiber.",
         "condition": { "u_has_item": "inflorescent_root" },
         "topic": "TALK_BONE_SEER_POWER_OFFER_INVALID_ORGANIC"
@@ -224,19 +219,6 @@
       {
         "text": "Go ahead.  It's yours.",
         "effect": [ { "u_consume_item": "bone_twisted" }, { "u_add_var": "gave_monsterpart", "value": "yes" } ],
-        "topic": "TALK_BONE_SEER_POWER_STUDY"
-      },
-      { "text": "I can't part with it just yet.  I'm sorry.", "topic": "TALK_BONE_SEER_POWER_REFUSAL" }
-    ]
-  },
-  {
-    "type": "talk_topic",
-    "id": "TALK_BONE_SEER_POWER_OFFER_GRACKEN_KNUCKLES",
-    "dynamic_line": "Ah, this is a very traditional manner of hearing the songs, of grasping the power within.  But these hum with verses I have never heard before.  Is this true, that there is something more to learn from these bones?  I cannot repay you for this, but please.  If you would be willing to part with them…",
-    "responses": [
-      {
-        "text": "Go ahead.  It's yours.",
-        "effect": [ { "u_consume_item": "gracken_knuckles" }, { "u_add_var": "gave_monsterpart", "value": "yes" } ],
         "topic": "TALK_BONE_SEER_POWER_STUDY"
       },
       { "text": "I can't part with it just yet.  I'm sorry.", "topic": "TALK_BONE_SEER_POWER_REFUSAL" }

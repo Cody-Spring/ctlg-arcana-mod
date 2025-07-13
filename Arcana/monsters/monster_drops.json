@@ -80,12 +80,6 @@
   },
   {
     "type": "item_group",
-    "id": "mon_zougar_shady_death_drops",
-    "subtype": "collection",
-    "entries": [ { "item": "shadow_gem", "prob": 25 }, { "item": "essence_blood", "count": [ 2, 4 ], "prob": 50 } ]
-  },
-  {
-    "type": "item_group",
     "id": "mon_zombie_pupa_decoy_shady_death_drops",
     "subtype": "collection",
     "entries": [
@@ -201,8 +195,7 @@
       {
         "distribution": [
           { "item": "monster_fang", "prob": 75 },
-          { "item": "graboid_fang", "prob": 10 },
-          { "item": "gracken_knuckles", "prob": 15 }
+          { "item": "graboid_fang", "prob": 10 }
         ],
         "prob": 10
       },
@@ -218,8 +211,7 @@
       {
         "distribution": [
           { "item": "monster_fang", "prob": 75 },
-          { "item": "graboid_fang", "prob": 10 },
-          { "item": "gracken_knuckles", "prob": 15 }
+          { "item": "graboid_fang", "prob": 10 }
         ],
         "prob": 25
       },
@@ -433,67 +425,11 @@
   },
   {
     "type": "item_group",
-    "id": "mon_fungaloid_death_drops",
-    "subtype": "collection",
-    "entries": [ { "item": "inflorescent_root", "prob": 5 }, { "item": "essence", "prob": 10 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "mon_fungaloid_young_death_drops",
-    "subtype": "collection",
-    "entries": [ { "item": "essence", "prob": 5 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "mon_fungaloid_queen_death_drops",
-    "subtype": "collection",
-    "entries": [
-      { "distribution": [ { "item": "inflorescent_root", "prob": 50 }, { "item": "dermatik_sting", "prob": 50 } ] },
-      { "item": "essence", "count": [ 2, 5 ] }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "mon_fungaloid_seeder_death_drops",
-    "subtype": "collection",
-    "entries": [
-      { "distribution": [ { "item": "inflorescent_root", "prob": 50 }, { "item": "triffid_queen_flower", "prob": 50 } ] },
-      { "item": "essence", "count": [ 2, 5 ] }
-    ]
-  },
-  {
-    "type": "item_group",
     "id": "mon_fungal_tendril_death_drops",
     "subtype": "collection",
     "entries": [
       { "distribution": [ { "item": "dermatik_sting", "prob": 90 }, { "item": "iron_thorn", "prob": 10 } ], "prob": 10 },
       { "item": "essence", "prob": 5 }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "mon_fungaloid_blossom_death_drops",
-    "subtype": "collection",
-    "entries": [
-      {
-        "distribution": [ { "item": "inflorescent_root", "prob": 50 }, { "item": "triffid_queen_flower", "prob": 50 } ],
-        "prob": 10
-      },
-      { "item": "essence", "prob": 25 }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "mon_fungaloid_shambler_death_drops",
-    "subtype": "collection",
-    "entries": [
-      { "group": "SUS_trash_metal", "prob": 5 },
-      { "group": "SUS_trash_forest_no_manmade", "prob": 5 },
-      {
-        "distribution": [ { "item": "inflorescent_root", "prob": 50 }, { "item": "iron_thorn", "prob": 50 } ],
-        "prob": 10
-      },
-      { "item": "essence", "prob": 25 }
     ]
   },
   {
@@ -514,11 +450,10 @@
     "id": "mon_chud_death_drops",
     "subtype": "collection",
     "entries": [
-      { "item": "gracken_knuckles", "prob": 5 },
       { "item": "essence_blood", "prob": 10, "count": [ 2, 4 ] },
       { "group": "subway", "prob": 40 },
       { "group": "sewer", "prob": 20 },
-      { "group": "SUS_trash_trashcan", "prob": 5 },
+      { "group": "trash", "prob": 5 },
       { "group": "bedroom", "prob": 5 },
       { "group": "dresser", "prob": 10 },
       { "group": "ammo", "prob": 18 }
@@ -541,7 +476,6 @@
         {
           "distribution": [
             { "item": "bone_twisted", "prob": 25 },
-            { "item": "gracken_knuckles", "prob": 25 },
             { "item": "graboid_fang", "prob": 25 },
             { "item": "monster_fang", "prob": 25 }
           ],
@@ -561,7 +495,6 @@
         {
           "distribution": [
             { "item": "bone_twisted", "prob": 25 },
-            { "item": "gracken_knuckles", "prob": 25 },
             { "item": "graboid_fang", "prob": 25 },
             { "item": "monster_fang", "prob": 25 }
           ],
@@ -784,12 +717,6 @@
   },
   {
     "type": "item_group",
-    "id": "mon_gracke_death_drops",
-    "subtype": "collection",
-    "entries": [ { "item": "gracken_knuckles", "prob": 90 }, { "item": "essence", "prob": 50, "count": [ 1, 3 ] } ]
-  },
-  {
-    "type": "item_group",
     "id": "mon_blank_death_drops",
     "subtype": "collection",
     "entries": [ { "item": "monster_tear", "prob": 45 }, { "item": "essence", "prob": 50, "count": [ 1, 3 ] } ]
@@ -798,7 +725,7 @@
     "type": "item_group",
     "id": "mon_gozu_death_drops",
     "subtype": "collection",
-    "entries": [ { "item": "gracken_knuckles", "prob": 45 }, { "item": "essence", "prob": 50, "count": [ 1, 3 ] } ]
+    "entries": [ { "item": "essence", "prob": 50, "count": [ 1, 3 ] } ]
   },
   {
     "type": "item_group",
@@ -958,7 +885,6 @@
         "distribution": [
           { "item": "vortex_shard", "prob": 50 },
           { "item": "blob_gem", "prob": 50 },
-          { "item": "gracken_knuckles", "prob": 25 },
           { "item": "bone_twisted", "prob": 15 },
           { "item": "iridescent_plate", "prob": 10 }
         ],
@@ -1005,7 +931,6 @@
       { "group": "default_zombie_clothes" },
       {
         "distribution": [
-          { "item": "gracken_knuckles", "prob": 50 },
           { "item": "bone_twisted", "prob": 40 },
           { "item": "iridescent_plate", "prob": 10 }
         ],
@@ -1022,7 +947,6 @@
       { "group": "default_zombie_clothes" },
       {
         "distribution": [
-          { "item": "gracken_knuckles", "prob": 50 },
           { "item": "bone_twisted", "prob": 40 },
           { "item": "iridescent_plate", "prob": 10 }
         ],
@@ -1039,7 +963,6 @@
       { "group": "mon_zombie_hulk_death_drops" },
       {
         "distribution": [
-          { "item": "gracken_knuckles", "prob": 50 },
           { "item": "bone_twisted", "prob": 40 },
           { "item": "iridescent_plate", "prob": 10 }
         ],
@@ -1092,7 +1015,6 @@
       { "group": "mon_zombie_hulk_death_drops" },
       {
         "distribution": [
-          { "item": "gracken_knuckles", "prob": 50 },
           { "item": "bone_twisted", "prob": 40 },
           { "item": "iridescent_plate", "prob": 10 }
         ],
@@ -1648,75 +1570,6 @@
     }
   },
   {
-    "type": "item_group",
-    "id": "mon_unseen_hunter_death_drops",
-    "subtype": "collection",
-    "entries": [ { "item": "shadow_gem", "prob": 50 }, { "item": "essence", "prob": 75, "count": [ 1, 3 ] } ]
-  },
-  {
-    "type": "item_group",
-    "id": "mon_shifting_mass_death_drops",
-    "subtype": "collection",
-    "entries": [ { "item": "shadow_gem", "prob": 25 }, { "item": "essence", "prob": 50, "count": [ 1, 3 ] } ]
-  },
-  {
-    "type": "item_group",
-    "id": "mon_impossible_shape_death_drops",
-    "subtype": "collection",
-    "entries": [ { "item": "monster_tear", "prob": 25 }, { "item": "essence", "prob": 50, "count": [ 1, 3 ] } ]
-  },
-  {
-    "type": "item_group",
-    "id": "mon_absence_death_drops",
-    "subtype": "collection",
-    "entries": [ { "item": "shadow_gem", "prob": 10 }, { "item": "essence", "prob": 25, "count": [ 1, 3 ] } ]
-  },
-  {
-    "type": "item_group",
-    "id": "mon_giant_appendage_death_drops",
-    "subtype": "collection",
-    "entries": [
-      { "distribution": [ { "item": "bone_twisted", "prob": 50 }, { "item": "gracken_knuckles", "prob": 50 } ], "prob": 25 },
-      { "item": "essence", "prob": 25, "count": [ 1, 3 ] }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "mon_memory_death_drops",
-    "subtype": "collection",
-    "entries": [ { "item": "monster_tear", "prob": 5 }, { "item": "essence", "prob": 10, "count": [ 1, 3 ] } ]
-  },
-  {
-    "type": "item_group",
-    "id": "mon_swarm_structure_death_drops",
-    "subtype": "collection",
-    "entries": [
-      {
-        "distribution": [
-          { "item": "engraved_stone", "prob": 25 },
-          { "item": "iron_thorn", "prob": 25 },
-          { "item": "inflorescent_root", "prob": 10 },
-          { "item": "graboid_fang", "prob": 10 },
-          { "item": "vortex_shard", "prob": 15 },
-          { "item": "blob_gem", "prob": 5 },
-          { "item": "monster_tear", "prob": 5 },
-          { "item": "shadow_gem", "prob": 5 }
-        ],
-        "prob": 50
-      },
-      { "item": "essence", "prob": 50, "count": [ 1, 3 ] }
-    ]
-  },
-  {
-    "id": "mon_twisting_blade_death_drops",
-    "type": "item_group",
-    "subtype": "collection",
-    "entries": [
-      { "distribution": [ { "item": "engraved_stone", "prob": 50 }, { "item": "iron_thorn", "prob": 50 } ], "prob": 10 },
-      { "item": "essence", "prob": 25, "count": [ 1, 3 ] }
-    ]
-  },
-  {
     "id": "mon_spirit_of_fire_death_drops",
     "type": "item_group",
     "subtype": "collection",
@@ -1840,8 +1693,7 @@
       {
         "distribution": [
           { "group": "arcana_hunt_random", "prob": 75 },
-          { "item": "bone_twisted", "prob": 5 },
-          { "item": "gracken_knuckles", "prob": 20 }
+          { "item": "bone_twisted", "prob": 5 }
         ],
         "prob": 10
       },
@@ -1867,75 +1719,6 @@
     "entries": [ { "group": "arcana_hunt_random", "prob": 5 }, { "item": "essence_blood", "count": [ 2, 4 ], "prob": 10 } ]
   },
   {
-    "type": "item_group",
-    "id": "mon_leech_blossom_death_drops",
-    "subtype": "collection",
-    "entries": [
-      { "distribution": [ { "item": "inflorescent_root", "prob": 75 }, { "item": "triffid_queen_flower", "prob": 25 } ] },
-      { "distribution": [ { "item": "vortex_shard", "prob": 75 }, { "item": "blob_gem", "prob": 25 } ] },
-      { "item": "essence", "count": [ 2, 5 ] }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "mon_leech_stalk_death_drops",
-    "subtype": "collection",
-    "entries": [
-      {
-        "distribution": [ { "item": "inflorescent_root", "prob": 75 }, { "item": "triffid_queen_flower", "prob": 25 } ],
-        "prob": 10
-      },
-      { "distribution": [ { "item": "vortex_shard", "prob": 75 }, { "item": "blob_gem", "prob": 25 } ], "prob": 10 },
-      { "item": "essence", "prob": 15 }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "mon_leech_radio_death_drops",
-    "subtype": "collection",
-    "entries": [
-      {
-        "distribution": [ { "item": "inflorescent_root", "prob": 75 }, { "item": "triffid_queen_flower", "prob": 25 } ],
-        "prob": 10
-      },
-      { "distribution": [ { "item": "vortex_shard", "prob": 75 }, { "item": "blob_gem", "prob": 25 } ], "prob": 10 },
-      { "item": "essence", "prob": 15 }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "mon_leech_pod_cluster_death_drops",
-    "subtype": "collection",
-    "entries": [
-      {
-        "distribution": [ { "item": "inflorescent_root", "prob": 75 }, { "item": "triffid_queen_flower", "prob": 25 } ],
-        "prob": 5
-      },
-      { "distribution": [ { "item": "vortex_shard", "prob": 75 }, { "item": "blob_gem", "prob": 25 } ], "prob": 5 },
-      { "item": "essence", "prob": 10 }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "mon_leech_root_runner_death_drops",
-    "subtype": "collection",
-    "entries": [
-      { "item": "inflorescent_root", "prob": 5 },
-      { "distribution": [ { "item": "vortex_shard", "prob": 75 }, { "item": "blob_gem", "prob": 25 } ], "prob": 5 },
-      { "item": "essence", "prob": 10 }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "mon_leech_root_drone_death_drops",
-    "subtype": "collection",
-    "entries": [
-      { "item": "inflorescent_root", "prob": 2 },
-      { "distribution": [ { "item": "vortex_shard", "prob": 75 }, { "item": "blob_gem", "prob": 25 } ], "prob": 2 },
-      { "item": "essence", "prob": 5 }
-    ]
-  },
-  {
     "id": "mon_seraphic_shade_death_drops",
     "type": "item_group",
     "subtype": "collection",
@@ -1949,50 +1732,13 @@
   },
   {
     "type": "item_group",
-    "id": "mon_exodii_worker_death_drops",
-    "subtype": "collection",
-    "entries": [
-      { "group": "robots", "prob": 80 },
-      { "item": "iron_thorn", "prob": 10 },
-      {
-        "distribution": [
-          { "item": "vortex_shard", "prob": 45 },
-          { "item": "blob_gem", "prob": 45 },
-          { "item": "iridescent_plate", "prob": 10 }
-        ],
-        "prob": 5
-      },
-      { "item": "essence", "prob": 25 }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "mon_exodii_quad_death_drops",
-    "subtype": "collection",
-    "entries": [
-      { "group": "robots", "prob": 80 },
-      { "item": "iron_thorn", "prob": 20 },
-      {
-        "distribution": [
-          { "item": "vortex_shard", "prob": 45 },
-          { "item": "blob_gem", "prob": 45 },
-          { "item": "iridescent_plate", "prob": 10 }
-        ],
-        "prob": 10
-      },
-      { "item": "essence", "prob": 50 }
-    ]
-  },
-  {
-    "type": "item_group",
-    "id": "mon_zomborg_death_drops",
+    "id": "mon_broken_cyborg_death_drops",
     "subtype": "collection",
     "entries": [
       { "group": "robots", "prob": 80 },
       {
         "distribution": [
           { "item": "iron_thorn", "prob": 40 },
-          { "item": "gracken_knuckles", "prob": 30 },
           { "item": "bone_twisted", "prob": 30 }
         ],
         "prob": 10
@@ -2008,18 +1754,6 @@
       },
       { "item": "essence_blood", "count": [ 2, 4 ], "prob": 25 }
     ]
-  },
-  {
-    "type": "item_group",
-    "id": "exodii_sniper_drone_death_drops",
-    "subtype": "collection",
-    "entries": [ { "group": "robots", "prob": 80 }, { "item": "iron_thorn", "prob": 10 }, { "item": "essence", "prob": 25 } ]
-  },
-  {
-    "type": "item_group",
-    "id": "mon_exodii_turret_death_drops",
-    "subtype": "collection",
-    "entries": [ { "group": "robots", "prob": 80 }, { "item": "iron_thorn", "prob": 10 }, { "item": "essence", "prob": 25 } ]
   },
   {
     "type": "item_group",
@@ -2216,8 +1950,7 @@
       { "group": "cleansing_flame_books_postapoc", "prob": 25 },
       {
         "distribution": [
-          { "item": "hexenhammer", "prob": 75, "damage": [ 1, 4 ] },
-          { "item": "lucern_hexenhammer", "prob": 25, "damage": [ 1, 4 ] }
+          { "item": "hexenhammer", "prob": 75, "damage": [ 1, 4 ] }
         ],
         "prob": 75
       }
@@ -2268,9 +2001,9 @@
         "distribution": [
           {
             "collection": [
-              { "item": "armor_larmor", "damage": [ 1, 4 ] },
-              { "item": "armguard_larmor", "prob": 75, "damage": [ 1, 4 ] },
-              { "item": "boots_larmor", "prob": 50, "damage": [ 1, 4 ] },
+              { "item": "leather_cuirass", "damage": [ 1, 4 ] },
+              { "item": "leather_arm_guards", "prob": 75, "damage": [ 1, 4 ] },
+              { "item": "boots", "prob": 50, "damage": [ 1, 4 ] },
               { "item": "leather", "count": [ 1, 4 ] }
             ],
             "prob": 50
@@ -2291,29 +2024,6 @@
       { "group": "sanguine_cult_books_postapoc", "prob": 50 },
       { "group": "sanguine_cult_books_postapoc", "prob": 25 },
       { "item": "bloodscourge", "prob": 75, "damage": [ 1, 4 ] }
-    ]
-  },
-  {
-    "id": "mon_archunk_weak_death_drops",
-    "type": "item_group",
-    "subtype": "collection",
-    "entries": [ { "group": "ps_artifact_weak" }, { "item": "essence", "count": [ 1, 3 ] } ]
-  },
-  {
-    "id": "mon_archunk_medium_death_drops",
-    "type": "item_group",
-    "subtype": "collection",
-    "entries": [ { "group": "ps_artifact_medium" }, { "item": "essence", "count": [ 4, 6 ] } ]
-  },
-  {
-    "id": "mon_archunk_strong_death_drops",
-    "type": "item_group",
-    "subtype": "collection",
-    "entries": [
-      { "group": "ps_artifact_strong" },
-      {
-        "distribution": [ { "item": "essence", "prob": 75, "count": [ 8, 12 ] }, { "item": "essence_pure", "prob": 25 } ]
-      }
     ]
   },
   {
@@ -2367,7 +2077,6 @@
         "distribution": [
           { "item": "monster_fang", "prob": 25 },
           { "item": "graboid_fang", "prob": 25 },
-          { "item": "gracken_knuckles", "prob": 25 },
           { "item": "bone_twisted", "prob": 25 }
         ],
         "prob": 5

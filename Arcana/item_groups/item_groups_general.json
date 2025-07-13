@@ -282,7 +282,6 @@
       [ "monster_tear", 10 ],
       [ "shadow_gem", 5 ],
       [ "bone_twisted", 10 ],
-      [ "gracken_knuckles", 5 ],
       [ "wyrmskin_piece", 5 ],
       [ "monster_fang", 15 ],
       [ "iridescent_plate", 15 ],
@@ -316,9 +315,6 @@
     "//": "A smattering of non-magitech tools and materials of anomalous origin.",
     "type": "item_group",
     "items": [
-      { "item": "meat_frond", "prob": 10, "count": 2, "container-item": "jar_glass_sealed" },
-      { "item": "leech_flower", "prob": 5, "count": 2, "container-item": "jar_glass_sealed" },
-      { "item": "meat_bark", "prob": 5, "count": 2, "container-item": "jar_glass_sealed" },
       { "item": "veggy_tainted", "prob": 15, "count": 2, "container-item": "jar_glass_sealed" },
       { "item": "veggy", "prob": 15, "count": 2, "container-item": "jar_glass_sealed" },
       [ "stick_fiber", 4 ],
@@ -326,15 +322,6 @@
       [ "biollante_bud", 3 ],
       [ "resin_chunk", 15 ],
       [ "alien_pod_resin", 5 ],
-      [ "exodii_chassis", 3 ],
-      [ "exodii_drone_chassis", 3 ],
-      [ "cyborg_matrix", 2 ],
-      [ "exodii_computer", 2 ],
-      [ "exodii_module", 2 ],
-      [ "exodii_sensor", 2 ],
-      [ "exodii_motor", 2 ],
-      [ "exodii_scanner_dish", 2 ],
-      [ "exodii_portalizer", 2 ],
       [ "spiral_stone", 9 ],
       [ "petrified_eye", 5 ],
       [ "vortex_stone", 4 ],
@@ -361,7 +348,6 @@
     "items": [
       [ "bio_electrothermal_arc_projector", 20 ],
       [ "bio_rift_focus_projector", 10 ],
-      [ "bio_essence_surge_cell", 30 ],
       [ "bio_temporal_stimulation", 20 ],
       [ "bio_life_sign_suppression", 10 ],
       [ "bio_kinetic_amplifier", 20 ]
@@ -386,7 +372,6 @@
     "items": [
       { "item": "AID_bio_electrothermal_arc_projector", "prob": 20 },
       { "item": "AID_bio_rift_focus_projector", "prob": 10 },
-      { "item": "AID_bio_essence_surge_cell", "prob": 30 },
       { "item": "AID_bio_temporal_stimulation", "prob": 20 },
       { "item": "AID_bio_life_sign_suppression", "prob": 10 },
       { "item": "AID_bio_kinetic_amplifier", "prob": 10 }

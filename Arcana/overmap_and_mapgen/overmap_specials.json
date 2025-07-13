@@ -16,7 +16,7 @@
     "city_distance": [ 20, -1 ],
     "city_sizes": [ 0, 12 ],
     "occurrences": [ 75, 100 ],
-    "flags": [ "CLASSIC", "WILDERNESS", "GLOBALLY_UNIQUE" ]
+    "flags": [ "CLASSIC", "WILDERNESS", "OVERMAP_UNIQUE" ]
   },
   {
     "type": "overmap_special",
@@ -31,7 +31,7 @@
     "city_distance": [ 0, -1 ],
     "city_sizes": [ 0, 12 ],
     "occurrences": [ 75, 100 ],
-    "flags": [ "CLASSIC", "WILDERNESS", "GLOBALLY_UNIQUE" ]
+    "flags": [ "CLASSIC", "WILDERNESS", "OVERMAP_UNIQUE" ]
   },
   {
     "type": "overmap_special",
@@ -52,7 +52,7 @@
     "city_distance": [ 20, -1 ],
     "city_sizes": [ 0, 12 ],
     "occurrences": [ 75, 100 ],
-    "flags": [ "CLASSIC", "WILDERNESS", "GLOBALLY_UNIQUE" ],
+    "flags": [ "CLASSIC", "WILDERNESS", "OVERMAP_UNIQUE" ],
     "spawns": { "group": "GROUP_ARCHON", "population": [ 150, 300 ], "radius": [ 20, 40 ] }
   },
   {
@@ -76,7 +76,7 @@
     "city_distance": [ 20, -1 ],
     "city_sizes": [ 0, 12 ],
     "occurrences": [ 75, 100 ],
-    "flags": [ "CLASSIC", "WILDERNESS", "GLOBALLY_UNIQUE" ]
+    "flags": [ "CLASSIC", "WILDERNESS", "OVERMAP_UNIQUE" ]
   },
   {
     "type": "overmap_special",
@@ -118,7 +118,7 @@
     "city_distance": [ 16, -1 ],
     "city_sizes": [ 0, 12 ],
     "occurrences": [ 75, 100 ],
-    "flags": [ "CLASSIC", "WILDERNESS", "GLOBALLY_UNIQUE" ]
+    "flags": [ "CLASSIC", "WILDERNESS", "OVERMAP_UNIQUE" ]
   },
   {
     "type": "overmap_special",
@@ -185,7 +185,7 @@
     "city_distance": [ 10, -1 ],
     "city_sizes": [ 1, -1 ],
     "occurrences": [ 75, 100 ],
-    "flags": [ "CLASSIC", "WILDERNESS", "GLOBALLY_UNIQUE" ],
+    "flags": [ "CLASSIC", "WILDERNESS", "OVERMAP_UNIQUE" ],
     "rotate": false
   },
   {

@@ -90,7 +90,6 @@
           { "id": "inflorescent_root", "fg": 14 },
           { "id": "triffid_queen_flower", "fg": 15 },
           { "id": [ "vortex_shard", "shadow_gem" ], "fg": 16 },
-          { "id": [ "bone_twisted", "gracken_knuckles" ], "fg": 17 },
           { "id": [ "wyrmskin_piece", "iridescent_plate" ], "fg": 18 },
           { "id": [ "blob_gem", "monster_tear", "engraved_stone" ], "fg": 19 },
           { "id": "CF_golden_scale", "fg": 20 },

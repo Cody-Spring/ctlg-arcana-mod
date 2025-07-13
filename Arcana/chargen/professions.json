@@ -131,7 +131,7 @@
       "both": {
         "items": [
           "tank_top",
-          "duster",
+          "jacket_leather",
           "pants",
           "socks",
           "boots",
@@ -240,8 +240,8 @@
           "pants",
           "gilded_aegis",
           "socks",
-          "boots_larmor",
-          "gauntlets_larmor",
+          "boots",
+          "leather_gauntlets",
           "helmet_galea",
           "somen_clairvoyance",
           "holy_symbol",
@@ -405,7 +405,7 @@
       "both": {
         "items": [
           "armor_wyrm",
-          "duster",
+          "jacket_leather",
           "tricorne",
           "keffiyeh",
           "socks",
@@ -466,7 +466,7 @@
         "items": [
           "tshirt",
           "pants_cargo",
-          "trenchcoat",
+          "jacket_leather",
           "socks",
           "boots",
           "gloves_fingerless",
@@ -511,7 +511,6 @@
       "bio_fingerhack",
       "bio_ups",
       "bio_metabolics",
-      "bio_essence_surge_cell",
       "bio_power_storage_mkII"
     ],
     "skills": [
@@ -535,7 +534,7 @@
           "pants_cargo",
           "socks",
           "boots_combat",
-          "trenchcoat",
+          "jacket_leather",
           "molle_pack",
           "wristwatch",
           "book_hexenhammer"
@@ -579,13 +578,13 @@
       "both": {
         "items": [
           "loincloth",
-          "armor_plarmor",
+          "platemail_cuirass",
           "robe",
           "footrags",
-          "boots_larmor",
+          "boots",
           "gloves_wraps",
-          "gauntlets_larmor",
-          "helmet_larmor",
+          "leather_gauntlets",
+          "leather_helmet",
           "patchwork_scarf",
           "cyclopean_mirror",
           "leather_pouch",

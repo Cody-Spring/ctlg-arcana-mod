@@ -177,7 +177,7 @@
   },
   {
     "type": "recipe",
-    "result": "gloves_plate",
+    "result": "platemail_gauntlets",
     "id_suffix": "arcana",
     "obsolete": true
   },
@@ -593,7 +593,6 @@
       "mon_shadow",
       "mon_shadow_snake",
       "mon_unseen_hunter",
-      "mon_zougar_shady",
       "mon_zombie_pupa_decoy_shady",
       "mon_spawn_raptor_shady",
       "mon_zombie_brute_ninja",

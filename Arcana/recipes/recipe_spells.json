@@ -103,7 +103,7 @@
     "book_learn": [ [ "book_magicfordummies", 2 ] ],
     "using": [ [ "arcana_polishing_standard", 1 ] ],
     "qualities": [ { "id": "CUT", "level": 1 } ],
-    "components": [ [ [ "gracken_knuckles", 1 ] ], [ [ "essence_blood", 2 ], [ "essence_dull", 20 ] ] ],
+    "components": [ [ [ "essence_blood", 2 ], [ "essence_dull", 20 ] ] ],
     "delete_flags": [ "HIDDEN_HALLU", "HIDDEN_POISON", "BAD_TASTE", "CANNIBALISM" ]
   },
   {
