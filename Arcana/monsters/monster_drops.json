@@ -1852,21 +1852,6 @@
     ]
   },
   {
-    "type": "item_group",
-    "id": "mon_mech_arcana_boss_death_drops",
-    "subtype": "collection",
-    "entries": [
-      { "item": "arcana_mech_shem" },
-      { "item": "scrap", "charges": [ 0, 35 ] },
-      { "item": "e_scrap", "count": [ 0, 2 ] },
-      { "item": "copper", "charges": [ 0, 350 ] },
-      { "item": "wire", "count": [ 0, 2 ] },
-      { "item": "amplifier", "count": [ 0, 2 ] },
-      { "item": "essence_dull", "count": [ 0, 410 ] },
-      { "item": "essence_pure", "count": [ 0, 5 ] }
-    ]
-  },
-  {
     "id": "mon_feral_summoner_death_drops",
     "type": "item_group",
     "subtype": "collection",

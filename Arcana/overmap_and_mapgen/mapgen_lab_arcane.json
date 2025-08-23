@@ -879,8 +879,7 @@
           "x": [ 57, 65 ],
           "y": [ 29, 33 ],
           "repeat": [ 3, 6 ]
-        },
-        { "monster": "mon_mech_arcana_boss", "x": 7, "y": 30 }
+        }
       ]
     }
   },

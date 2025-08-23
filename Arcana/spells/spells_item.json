@@ -36,7 +36,7 @@
     "max_damage": -20,
     "effect": "recover_energy",
     "shape": "blast",
-    "effect_str": "SLEEPINESS"
+    "effect_str": "FATIGUE"
   },
   {
     "id": "arcana_item_athame_sanguine_art_corruption",
@@ -81,7 +81,7 @@
     "max_damage": -18,
     "effect": "recover_energy",
     "shape": "blast",
-    "effect_str": "SLEEPINESS"
+    "effect_str": "FATIGUE"
   },
   {
     "id": "arcana_item_chalice_offering",
@@ -120,7 +120,7 @@
     "max_damage": -60,
     "effect": "recover_energy",
     "shape": "blast",
-    "effect_str": "SLEEPINESS"
+    "effect_str": "FATIGUE"
   },
   {
     "id": "arcana_item_chalice_offering_winding",
@@ -214,7 +214,7 @@
     "max_damage": -8,
     "effect": "recover_energy",
     "shape": "blast",
-    "effect_str": "SLEEPINESS"
+    "effect_str": "FATIGUE"
   },
   {
     "id": "arcana_item_coalescent_conversion",
@@ -394,7 +394,7 @@
     "max_damage": -300,
     "effect": "recover_energy",
     "shape": "blast",
-    "effect_str": "SLEEPINESS"
+    "effect_str": "FATIGUE"
   },
   {
     "type": "SPELL",
@@ -496,7 +496,7 @@
     "max_damage": -14,
     "effect": "recover_energy",
     "shape": "blast",
-    "effect_str": "SLEEPINESS"
+    "effect_str": "FATIGUE"
   },
   {
     "id": "arcana_item_generate_blood_essence",
@@ -753,7 +753,7 @@
     "message": "",
     "effect": "recover_energy",
     "shape": "blast",
-    "effect_str": "SLEEPINESS",
+    "effect_str": "FATIGUE",
     "flags": [ "SILENT", "NO_HANDS", "NO_LEGS" ],
     "min_damage": 30,
     "max_damage": 30
@@ -790,7 +790,7 @@
     "max_damage": -15,
     "effect": "recover_energy",
     "shape": "blast",
-    "effect_str": "SLEEPINESS"
+    "effect_str": "FATIGUE"
   },
   {
     "id": "arcana_item_jade_hauberk_pain",
@@ -936,7 +936,7 @@
     "max_damage": -40,
     "effect": "recover_energy",
     "shape": "blast",
-    "effect_str": "SLEEPINESS"
+    "effect_str": "FATIGUE"
   },
   {
     "id": "arcana_item_mech_flare_spike",
@@ -1206,7 +1206,7 @@
     "flags": [ "SILENT", "RANDOM_DURATION", "NO_HANDS", "NO_LEGS" ],
     "effect": "recover_energy",
     "shape": "blast",
-    "effect_str": "SLEEPINESS",
+    "effect_str": "FATIGUE",
     "min_damage": 30,
     "max_damage": 90
   },
@@ -1600,7 +1600,7 @@
     "max_damage": -10,
     "effect": "recover_energy",
     "shape": "blast",
-    "effect_str": "SLEEPINESS"
+    "effect_str": "FATIGUE"
   },
   {
     "type": "SPELL",
@@ -2232,7 +2232,7 @@
     "max_damage": -12,
     "effect": "recover_energy",
     "shape": "blast",
-    "effect_str": "SLEEPINESS"
+    "effect_str": "FATIGUE"
   },
   {
     "type": "SPELL",
@@ -2263,7 +2263,7 @@
     "max_damage": -16,
     "effect": "recover_energy",
     "shape": "blast",
-    "effect_str": "SLEEPINESS"
+    "effect_str": "FATIGUE"
   },
   {
     "id": "arcana_item_pet",
