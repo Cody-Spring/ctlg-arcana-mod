@@ -122,21 +122,6 @@
     "ench_effects": [ { "effect": "halo_flute_effect", "intensity": 1 } ]
   },
   {
-    "id": "arcana_ench_mech_laser",
-    "type": "enchantment",
-    "has": "WIELD",
-    "condition": "ALWAYS",
-    "values": [
-      { "value": "ARMOR_BASH", "add": -25 },
-      { "value": "ARMOR_CUT", "add": -35 },
-      { "value": "ARMOR_STAB", "add": -30 },
-      { "value": "ARMOR_BULLET", "add": -40 },
-      { "value": "ARMOR_HEAT", "add": -20 },
-      { "value": "ARMOR_ACID", "add": -20 }
-    ],
-    "ench_effects": [ { "effect": "arcana_mech_laser_immunities", "intensity": 1 } ]
-  },
-  {
     "type": "mutation",
     "id": "THRESH_SERAPHIC_SIDE_EFFECTS",
     "name": { "str": "Dummy Mutation Threshold" },
