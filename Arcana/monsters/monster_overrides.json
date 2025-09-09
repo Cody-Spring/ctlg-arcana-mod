@@ -138,12 +138,6 @@
     "death_drops": "mon_zombie_ears_death_drops"
   },
   {
-    "id": "mon_zombie_skull",
-    "copy-from": "mon_zombie_skull",
-    "type": "MONSTER",
-    "death_drops": "mon_zombie_skull_death_drops"
-  },
-  {
     "id": "mon_zombie_necro",
     "copy-from": "mon_zombie_necro",
     "type": "MONSTER",
@@ -267,13 +261,6 @@
     "death_drops": "mon_blob_small_deathdrops"
   },
   {
-    "id": "mon_crawler",
-    "copy-from": "mon_crawler",
-    "type": "MONSTER",
-    "death_drops": "mon_crawler_death_drops",
-    "extend": { "categories": [ "CLASSIC" ] }
-  },
-  {
     "id": "mon_bee",
     "copy-from": "mon_bee",
     "type": "MONSTER",
@@ -344,13 +331,6 @@
     "copy-from": "mon_dark_wyrm",
     "type": "MONSTER",
     "death_drops": "mon_dark_wyrm_death_drops",
-    "extend": { "categories": [ "CLASSIC" ] }
-  },
-  {
-    "id": "mon_albino_penguin",
-    "copy-from": "mon_albino_penguin",
-    "type": "MONSTER",
-    "death_drops": "mon_albino_penguin_death_drops",
     "extend": { "categories": [ "CLASSIC" ] }
   },
   {
@@ -485,13 +465,6 @@
     "copy-from": "mon_flaming_eye",
     "type": "MONSTER",
     "death_drops": "mon_flaming_eye_death_drops",
-    "extend": { "categories": [ "CLASSIC" ] }
-  },
-  {
-    "id": "mon_kreck",
-    "copy-from": "mon_kreck",
-    "type": "MONSTER",
-    "death_drops": "mon_kreck_death_drops",
     "extend": { "categories": [ "CLASSIC" ] }
   },
   {

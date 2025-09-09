@@ -259,23 +259,6 @@
     "components": [ [ [ "silver_small", 95 ] ] ]
   },
   {
-    "result": "summon_kreck",
-    "type": "recipe",
-    "category": "CC_ARCANA",
-    "subcategory": "CSC_ARCANA_OTHER",
-    "skill_used": "magic",
-    "difficulty": 6,
-    "time": "60 m",
-    "activity_level": "NO_EXERCISE",
-    "book_learn": [ [ "book_summoning", 6 ] ],
-    "qualities": [ { "id": "CUT", "level": 1 } ],
-    "using": [ [ "arcana_purification_standard", 1 ], [ "arcana_essence_exclude_dull", 1 ] ],
-    "tools": [ [ [ "book_summoning", -1 ] ] ],
-    "components": [ [ [ "silver_glyph", 1 ] ], [ [ "tallow", 4 ], [ "tallow_tainted", 4 ], [ "monster_fang", 1 ] ] ],
-    "delete_flags": [ "HIDDEN_HALLU", "HIDDEN_POISON", "BAD_TASTE", "CANNIBALISM" ],
-    "flags": [ "BLIND_EASY", "ALLOW_ROTTEN", "SECRET" ]
-  },
-  {
     "result": "summon_blank",
     "type": "recipe",
     "category": "CC_ARCANA",

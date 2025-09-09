@@ -720,16 +720,6 @@
     "components": [ [ [ "silver_small", 600 ] ], [ [ "material_sand", 12 ] ], [ [ "essence_dull", 60 ] ] ]
   },
   {
-    "result": "summon_kreck",
-    "type": "uncraft",
-    "skill_used": "magic",
-    "difficulty": 5,
-    "time": "50 m",
-    "activity_level": "LIGHT_EXERCISE",
-    "tools": [ [ [ "hexenhammer", -1 ] ] ],
-    "components": [ [ [ "silver_small", 95 ] ], [ [ "essence_dull", 30 ] ] ]
-  },
-  {
     "result": "summon_blank",
     "type": "uncraft",
     "skill_used": "magic",
@@ -818,16 +808,6 @@
     "activity_level": "LIGHT_EXERCISE",
     "tools": [ [ [ "hexenhammer", -1 ] ] ],
     "components": [ [ [ "silver_small", 95 ] ], [ [ "essence_dull", 150 ] ] ]
-  },
-  {
-    "result": "summon_kreck_bound",
-    "type": "uncraft",
-    "skill_used": "magic",
-    "difficulty": 5,
-    "time": "50 m",
-    "activity_level": "LIGHT_EXERCISE",
-    "tools": [ [ [ "hexenhammer", -1 ] ] ],
-    "components": [ [ [ "silver_small", 95 ] ], [ [ "essence_dull", 30 ] ] ]
   },
   {
     "result": "summon_triffid_bound",

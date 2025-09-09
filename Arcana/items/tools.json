@@ -537,27 +537,6 @@
     "flags": [ "BOMB", "TRADER_AVOID", "NO_REPAIR", "LIGHT_50" ]
   },
   {
-    "id": "summon_kreck",
-    "type": "TOOL",
-    "copy-from": "silver_glyph",
-    "name": { "str": "glyph of trickery", "str_pl": "glyphs of trickery" },
-    "description": "A strange silver emblem, engraved with depictions of grotesque creatures.  Using it will call forth a kreck, and bind it to your will.  Hopefully.  It is easy to control.",
-    "price": "1500 USD",
-    "price_postapoc": "10 USD",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_kreck_summoned_glyph",
-      "friendly_msg": "The kreck looks up at you expectantly, as if wondering what sort of shenanigans you're plotting.",
-      "hostile_msg": "The kreck mimics your movements erratically, cavorting about to mock you!",
-      "difficulty": 1,
-      "moves": 60,
-      "place_randomly": true,
-      "is_pet": true,
-      "skills": [ "magic" ]
-    },
-    "flags": [ "NO_SALVAGE", "SINGLE_USE" ]
-  },
-  {
     "id": "summon_blank",
     "type": "TOOL",
     "copy-from": "silver_glyph",
@@ -753,21 +732,6 @@
       "skills": [ "magic" ]
     },
     "flags": [ "NO_SALVAGE", "SINGLE_USE" ]
-  },
-  {
-    "id": "summon_kreck_bound",
-    "type": "TOOL",
-    "copy-from": "summon_kreck",
-    "name": { "str": "bound summoned kreck" },
-    "description": "A charm of living essence wrapped around what looks to be a ghostly image of a silver glyph.  A kreck has been bound into this after a successful summon, activate to redeploy it.",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_kreck_summoned_glyph",
-      "friendly_msg": "You undo the energy binding the summoned kreck, causing it to reappear.",
-      "moves": 60,
-      "place_randomly": true,
-      "is_pet": true
-    }
   },
   {
     "id": "summon_triffid_bound",

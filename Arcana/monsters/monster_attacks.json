@@ -565,8 +565,6 @@
       { "id": "arcana_monster_summoner_shadow" },
       { "id": "arcana_monster_summoner_shadow" },
       { "id": "arcana_monster_summoner_shadow" },
-      { "id": "arcana_monster_summoner_kreck" },
-      { "id": "arcana_monster_summoner_kreck" },
       { "id": "arcana_monster_summoner_angel" }
     ]
   },
@@ -599,24 +597,6 @@
     "effect": "summon",
     "shape": "blast",
     "effect_str": "mon_shadow_summoned",
-    "min_damage": 1,
-    "max_damage": 1,
-    "min_aoe": 3,
-    "max_aoe": 3,
-    "min_duration": 30000,
-    "max_duration": 60000
-  },
-  {
-    "id": "arcana_monster_summoner_kreck",
-    "type": "SPELL",
-    "name": { "str": "Maddened Summons: Kreck" },
-    "description": "Creates a summoned kreck.",
-    "valid_targets": [ "ground" ],
-    "message": "",
-    "flags": [ "NO_EXPLOSION_SFX", "RANDOM_DURATION", "HOSTILE_SUMMON" ],
-    "effect": "summon",
-    "shape": "blast",
-    "effect_str": "mon_kreck_summoned",
     "min_damage": 1,
     "max_damage": 1,
     "min_aoe": 3,

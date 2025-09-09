@@ -653,7 +653,7 @@
   {
     "id": "TALK_CF_REP_MISSION_1_WHERE",
     "type": "talk_topic",
-    "dynamic_line": "Materials used to make these items are commonly wrested from beasts such as what other survivors call \"krecks\" which have been seen lingering near tears in reality, or lurking near the remains of slain soldiers and other groups.  Abominations some have termed hunting horrors and flying polyps may also be a source, though more dangerous.",
+    "dynamic_line": "Materials used to make these items are commonly wrested from beasts which have been seen lingering near tears in reality, or lurking near the remains of slain soldiers and other groups.  Abominations some have termed hunting horrors and flying polyps may also be a source, though more dangerous.",
     "responses": [
       { "text": "Anything else?", "topic": "TALK_CF_REP_MISSION_1_WHERE_2" },
       { "text": "Guess we'll see what I can do.", "topic": "TALK_CF_REP" }
