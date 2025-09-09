@@ -167,33 +167,6 @@
     "obsolete": true
   },
   {
-    "id": "summon_kreck_on",
-    "type": "TOOL",
-    "copy-from": "silver_glyph",
-    "name": { "str": "glyph of trickery (active)", "str_pl": "glyphs of trickery (active)" },
-    "description": "A strange silver emblem, engraved with depictions of grotesque creatures.  Using it will call forth a kreck, and bind it to your will.  Hopefully.",
-    "weight": "285 g",
-    "volume": "100 ml",
-    "price": "1500 USD",
-    "price_postapoc": "10 USD",
-    "symbol": ",",
-    "max_charges": 1,
-    "charges_per_use": 1,
-    "turns_per_charge": 1,
-    "revert_to": "silver_glyph",
-    "use_action": {
-      "type": "place_monster",
-      "monster_id": "mon_kreck_summoned_glyph",
-      "friendly_msg": "The kreck looks up at you expectantly, as if wondering what sort of shenanigans you're plotting.",
-      "hostile_msg": "The kreck mimics your movements erratically, cavorting about to mock you!",
-      "difficulty": 1,
-      "moves": 60,
-      "place_randomly": true,
-      "is_pet": true,
-      "skills": [ "magic" ]
-    }
-  },
-  {
     "id": "summon_blank_on",
     "type": "TOOL",
     "copy-from": "silver_glyph",
@@ -456,7 +429,6 @@
       "mon_skeleton_summoned",
       "mon_vortex_summoned",
       "mon_yugg_summoned",
-      "mon_kreck_summoned",
       "mon_triffid_summoned",
       "mon_flesh_angel_summoned",
       "mon_hunting_horror_summoned",
@@ -571,7 +543,6 @@
     "valid_targets": [ "ally", "hostile" ],
     "targeted_monster_ids": [
       "mon_dark_wyrm",
-      "mon_albino_penguin",
       "mon_blank",
       "mon_darkman",
       "mon_hunting_horror",
