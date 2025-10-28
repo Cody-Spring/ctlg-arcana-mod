@@ -259,7 +259,7 @@
         "^######################^",
         "^^^^^^^^^^^^^^^^^^^^^^^^"
       ],
-      "palettes": [ "standard_domestic_palette", "basement_empty" ],
+      "palettes": [ "standard_domestic_palette", "basement_empty_flooded" ],
       "terrain": {
         "=": "t_door_boarded",
         "@": "t_thconc_floor",
@@ -317,7 +317,7 @@
         "      ||||||||||||||||| ",
         "                        "
       ],
-      "palettes": [ "basement_empty" ],
+      "palettes": [ "basement_empty_flooded" ],
       "terrain": { "h": "t_thconc_floor", "r": "t_thconc_floor", "s": "t_thconc_floor" },
       "furniture": { "e": "f_table", "h": "f_chair", "r": "f_rack", "s": "f_safe_l" },
       "mapping": {
@@ -396,7 +396,7 @@
         "           |||||||||||| ",
         "                        "
       ],
-      "palettes": [ "basement_empty" ],
+      "palettes": [ "basement_empty_flooded" ],
       "terrain": { "h": "t_thconc_floor", "r": "t_thconc_floor", "s": "t_thconc_floor" },
       "furniture": { "e": "f_table", "h": "f_chair", "r": "f_rack", "s": "f_safe_l" },
       "mapping": {
@@ -605,7 +605,7 @@
         "                        ",
         "                        "
       ],
-      "palettes": [ "basement_empty" ],
+      "palettes": [ "basement_empty_flooded" ],
       "terrain": {
         ":": "t_dirtfloor",
         "B": "t_dirtfloor",
