@@ -1880,7 +1880,7 @@
         "5": "f_machinery_electronic",
         "9": "f_autodoc",
         "0": "f_autodoc_couch",
-        "A": "f_compact_ASRG_containment",
+        "A": "f_generator_broken",
         "a": "f_wreckage",
         "b": "f_bench",
         "w": "f_ground_cable",
@@ -2616,7 +2616,7 @@
       "furniture": { "%": "f_rubble_rock", "b": "f_boulder_small", "c": "f_camp_chair", "t": "f_tourist_table" },
       "mapping": {
         ".": {
-          "item": [ { "item": "bone_human", "chance": 10 }, { "item": "sheet_cotton", "chance": 5 }, { "item": "leather", "chance": 5 } ],
+          "item": [ { "item": "bone_human", "chance": 10 } ],
           "items": [ { "item": "casings", "chance": 5 } ]
         },
         "%": { "item": [ { "item": "rock", "repeat": [ 1, 5 ] } ] }
