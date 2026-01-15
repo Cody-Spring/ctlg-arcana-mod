@@ -1940,7 +1940,7 @@
       "place_fields": [ { "x": 8, "y": 8, "field": "fd_fatigue", "intensity": 1 } ],
       "place_monster": [
         { "monster": "mon_secubot", "x": 18, "y": 18 },
-        { "monster": "bot_skitterbot", "x": 19, "y": 13 },
+        { "monster": "mon_secubot", "x": 19, "y": 13 },
         { "monster": "mon_hazmatbot", "x": 7, "y": 4 }
       ]
     }
