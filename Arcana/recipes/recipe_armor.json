@@ -425,7 +425,6 @@
     "type": "recipe",
     "category": "CC_ARCANA",
     "subcategory": "CSC_ARCANA_ARMOR",
-    "byproducts": [ [ "cotton_patchwork", 5 ] ],
     "skill_used": "magic",
     "difficulty": 8,
     "skills_required": [ "tailor", 6 ],

@@ -168,10 +168,9 @@
         [ "brain", 5 ],
         [ "mutant_brain", 5 ],
         [ "stomach", 2 ],
-        [ "demihuman_stomach", 2 ],
+        [ "demihuman_stomach", 4 ],
         [ "hstomach", 1 ],
         [ "stomach_large", 2 ],
-        [ "demihuman_stomach_large", 2 ],
         [ "hstomach_large", 1 ],
         [ "flesh_golem_heart", 2 ],
         [ "jabberwock_heart", 1 ]
@@ -611,7 +610,7 @@
     "qualities": [ { "id": "CONTAIN", "level": 1 } ],
     "tools": [ [ [ "book_syncretism", -1 ], [ "book_hexenhammer", -1 ], [ "book_bloodmagic", -1 ], [ "book_sacrifice", -1 ] ] ],
     "components": [
-      [ [ "wax", 1 ], [ "any_tallow", 4, "LIST" ], [ "edible_lard", 1, "LIST" ] ],
+      [ [ "wax", 1 ], [ "any_tallow", 4, "LIST" ] ],
       [ [ "cordage_short", 1, "LIST" ] ],
       [ [ "flame_talisman", 1 ] ],
       [ [ "salt", 20 ] ],

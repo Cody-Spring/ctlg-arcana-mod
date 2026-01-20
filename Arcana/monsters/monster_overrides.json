@@ -585,7 +585,7 @@
     "dodge": 2,
     "harvest": "zombie_humanoid",
     "special_attacks": [
-      { "type": "spell", "spell_data": { "id": "fear_paralyze" }, "monster_message": "" },
+      { "type": "spell", "spell_data": { "id": "fear_paralyze" }, "monster_message": "", "cooldown": 30 },
       { "type": "bite", "cooldown": 5 }
     ],
     "death_drops": "mon_flesh_angel_death_drops",
@@ -736,12 +736,6 @@
     "copy-from": "mon_hound_tindalos_afterimage",
     "type": "MONSTER",
     "extend": { "flags": [ "COLDPROOF" ], "categories": [ "CLASSIC" ] }
-  },
-  {
-    "id": "mon_devourer",
-    "copy-from": "mon_devourer",
-    "type": "MONSTER",
-    "death_drops": "mon_devourer_death_drops"
   },
   {
     "id": "mon_zombie_crushed_giant",

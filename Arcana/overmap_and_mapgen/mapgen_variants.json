@@ -1880,7 +1880,7 @@
         "5": "f_machinery_electronic",
         "9": "f_autodoc",
         "0": "f_autodoc_couch",
-        "A": "f_compact_ASRG_containment",
+        "A": "f_generator_broken",
         "a": "f_wreckage",
         "b": "f_bench",
         "w": "f_ground_cable",
@@ -1907,7 +1907,7 @@
         "a": {
           "item": [
             { "item": "scrap", "repeat": [ 4, 16 ] },
-            { "item": "lc_steel_lump", "repeat": [ 1, 6 ] },
+            { "item": "steel_chunk", "repeat": [ 1, 6 ] },
             { "item": "plutonium", "repeat": [ 0, 3 ] },
             { "item": "lead", "repeat": [ 12, 18 ] }
           ]
@@ -1940,7 +1940,7 @@
       "place_fields": [ { "x": 8, "y": 8, "field": "fd_fatigue", "intensity": 1 } ],
       "place_monster": [
         { "monster": "mon_secubot", "x": 18, "y": 18 },
-        { "monster": "mon_science_bot", "x": 19, "y": 13 },
+        { "monster": "mon_secubot", "x": 19, "y": 13 },
         { "monster": "mon_hazmatbot", "x": 7, "y": 4 }
       ]
     }
@@ -2616,7 +2616,7 @@
       "furniture": { "%": "f_rubble_rock", "b": "f_boulder_small", "c": "f_camp_chair", "t": "f_tourist_table" },
       "mapping": {
         ".": {
-          "item": [ { "item": "bone_human", "chance": 10 }, { "item": "sheet_cotton", "chance": 5 }, { "item": "leather", "chance": 5 } ],
+          "item": [ { "item": "bone_human", "chance": 10 } ],
           "items": [ { "item": "casings", "chance": 5 } ]
         },
         "%": { "item": [ { "item": "rock", "repeat": [ 1, 5 ] } ] }

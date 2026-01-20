@@ -1601,19 +1601,6 @@
     }
   },
   {
-    "id": "mon_devourer_death_drops",
-    "//": "Mimics the existing triple sets of clothing, but adds a chance of blood essence, plus potentially a random monsterpart.  How did that get in there...",
-    "type": "item_group",
-    "subtype": "collection",
-    "entries": [
-      { "group": "default_zombie_death_drops" },
-      { "group": "default_zombie_death_drops" },
-      { "group": "default_zombie_death_drops" },
-      { "group": "arcana_hunt_random", "prob": 10 },
-      { "item": "essence_blood", "count": [ 2, 4 ], "prob": 25 }
-    ]
-  },
-  {
     "id": "mon_zombie_crushed_giant_death_drops",
     "type": "item_group",
     "subtype": "collection",

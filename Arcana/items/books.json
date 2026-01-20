@@ -7,19 +7,19 @@
     "description": "A series of handwritten notes by a student of some esoteric order.  At first the subject seems to be simple religious rituals, but it soon delves into more …anomalous practices.\n\"In time, my eyes will be opened.  They called it The Gift, but all who draw breath can partake of it.  There is no innate talent, no quirk of bloodline, only discipline and patience…\"",
     "weight": "454 g",
     "volume": "500 ml",
-    "//": "Pre-apocalypse price is estimated by maximum arcana skill the book can reach, post-apoc price is a depreciation derived from minimum arcana needed to learn from it, then further reduced to a tenth.",
+    "//": "Pre-apocalypse price is estimated by maximum arcana read_skill the book can reach, post-apoc price is a depreciation derived from minimum arcana needed to learn from it, then further reduced to a tenth.",
     "price": "100 USD",
     "price_postapoc": "10 USD",
     "material": [ "paper" ],
     "symbol": "?",
     "looks_like": "recipe_creepy",
     "color": "light_gray",
-    "skill": "magic",
+    "read_skill": "magic",
     "required_level": 0,
     "max_level": 2,
     "intelligence": 8,
     "time": "10 m",
-    "fun": -1
+    "read_fun": -1
   },
   {
     "id": "book_potioncraft",
@@ -35,12 +35,12 @@
     "symbol": "?",
     "looks_like": "textbook_gaswarfare",
     "color": "green",
-    "skill": "magic",
+    "read_skill": "magic",
     "required_level": 0,
     "max_level": 3,
     "intelligence": 9,
     "time": "10 m",
-    "fun": 0
+    "read_fun": 0
   },
   {
     "id": "book_scrollcraft",
@@ -57,12 +57,12 @@
     "symbol": "?",
     "looks_like": "book_philosophy",
     "color": "brown",
-    "skill": "magic",
+    "read_skill": "magic",
     "required_level": 2,
     "max_level": 5,
     "intelligence": 11,
     "time": "40 m",
-    "fun": -2
+    "read_fun": -2
   },
   {
     "id": "book_bloodmagic",
@@ -78,12 +78,12 @@
     "symbol": "?",
     "looks_like": "textbook_chemistry",
     "color": "red",
-    "skill": "magic",
+    "read_skill": "magic",
     "required_level": 3,
     "max_level": 6,
     "intelligence": 10,
     "time": "20 m",
-    "fun": -3
+    "read_fun": -3
   },
   {
     "id": "book_hexenhammer",
@@ -99,12 +99,12 @@
     "symbol": "?",
     "looks_like": "holybook_bible2",
     "color": "light_blue",
-    "skill": "magic",
+    "read_skill": "magic",
     "required_level": 4,
     "max_level": 7,
     "intelligence": 9,
     "time": "20 m",
-    "fun": -1
+    "read_fun": -1
   },
   {
     "id": "book_sacrifice",
@@ -120,12 +120,12 @@
     "symbol": "?",
     "looks_like": "holybook_bible1",
     "color": "blue",
-    "skill": "magic",
+    "read_skill": "magic",
     "required_level": 5,
     "max_level": 8,
     "intelligence": 10,
     "time": "30 m",
-    "fun": -3
+    "read_fun": -3
   },
   {
     "id": "book_syncretism",
@@ -141,12 +141,12 @@
     "symbol": "?",
     "looks_like": "holybook_kojiki",
     "color": "light_gray",
-    "skill": "magic",
+    "read_skill": "magic",
     "required_level": 6,
     "max_level": 10,
     "intelligence": 10,
     "time": "45 m",
-    "fun": -2
+    "read_fun": -2
   },
   {
     "id": "book_summoning",
@@ -162,12 +162,12 @@
     "symbol": "?",
     "looks_like": "welding_book",
     "color": "dark_gray",
-    "skill": "magic",
+    "read_skill": "magic",
     "required_level": 6,
     "max_level": 10,
     "intelligence": 11,
     "time": "45 m",
-    "fun": -3
+    "read_fun": -3
   },
   {
     "id": "recipe_lab_arcana",
@@ -183,12 +183,12 @@
     "symbol": "?",
     "looks_like": "recipe_lab_elec",
     "color": "light_green",
-    "skill": "magic",
+    "read_skill": "magic",
     "required_level": 5,
     "max_level": 8,
     "intelligence": 12,
     "time": "45 m",
-    "fun": -2
+    "read_fun": -2
   },
   {
     "id": "note_grove",
@@ -465,7 +465,7 @@
     "color": "light_gray",
     "intelligence": 12,
     "time": "30 m",
-    "fun": -1,
+    "read_fun": -1,
     "flags": [ "TRADER_AVOID" ]
   },
   {
@@ -481,7 +481,7 @@
     "color": "light_gray",
     "intelligence": 14,
     "time": "45 m",
-    "fun": -2,
+    "read_fun": -2,
     "flags": [ "TRADER_AVOID" ]
   },
   {
@@ -538,12 +538,12 @@
     "symbol": "?",
     "looks_like": "alloy_plate",
     "color": "light_gray",
-    "skill": "magic",
+    "read_skill": "magic",
     "required_level": 9,
     "max_level": 10,
     "intelligence": 16,
     "time": "45 m",
-    "fun": -2,
+    "read_fun": -2,
     "flags": [ "NO_SALVAGE", "TRADER_AVOID" ]
   }
 ]

@@ -742,7 +742,7 @@
         "C": "f_centrifuge",
         "D": "f_dresser",
         "F": "f_fridge",
-        "G": "f_compact_ASRG_containment",
+        "G": "f_generator_broken",
         "L": "f_locker",
         "O": "f_crate_c",
         "R": "f_wreckage",
