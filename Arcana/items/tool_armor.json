@@ -334,7 +334,7 @@
         "ammo_scale": 0
       }
     ],
-    "relative": { "weight": 616, "volume": -1 },
+    "relative": { "weight": "616 g" },
     "extend": { "flags": [ "NO_SALVAGE", "TRADER_KEEP_EQUIPPED" ] },
     "material_thickness": 6,
     "armor": [ { "covers": [ "torso", "leg_l", "leg_r", "arm_l", "arm_r" ], "coverage": 85, "encumbrance": [ 7, 7 ] } ]
@@ -455,7 +455,7 @@
         "encumbrance": 16
       }
     ],
-    "relative": { "weight": 210 },
+    "relative": { "weight": "210 g" },
     "extend": { "flags": [ "NO_SALVAGE", "TRADER_KEEP_EQUIPPED" ] }
   },
   {
@@ -495,7 +495,7 @@
         "encumbrance": 12
       }
     ],
-    "relative": { "weight": 120 },
+    "relative": { "weight": "120 g" },
     "extend": { "flags": [ "NO_SALVAGE", "ALLOWS_NATURAL_ATTACKS", "OVERSIZE", "OUTER" ] }
   },
   {
