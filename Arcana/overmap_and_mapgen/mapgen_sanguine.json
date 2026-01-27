@@ -1,8 +1,7 @@
 [
   {
     "type": "mapgen",
-	"method": "json",
-    "om_terrain": [ "island_temple_roof" ],
+	    "om_terrain": [ "island_temple_roof" ],
     "weight": 250,
     "object": {
       "fill_ter": "t_open_air",
@@ -37,8 +36,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "island_temple_1" ],
+	"om_terrain": [ "island_temple_1" ],
     "weight": 250,
     "object": {
       "rows": [
@@ -75,8 +73,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "island_temple_b_1" ],
+	"om_terrain": [ "island_temple_b_1" ],
     "weight": 250,
     "object": {
       "fill_ter": "t_soil",
@@ -123,8 +120,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "island_temple_b_2" ],
+	"om_terrain": [ "island_temple_b_2" ],
     "weight": 250,
     "object": {
       "fill_ter": "t_soil",
@@ -172,8 +168,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "island_temple_b_3" ],
+	"om_terrain": [ "island_temple_b_3" ],
     "weight": 250,
     "object": {
       "fill_ter": "t_soil",
@@ -215,8 +210,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "island_temple_b_4" ],
+	"om_terrain": [ "island_temple_b_4" ],
     "weight": 250,
     "object": {
       "fill_ter": "t_soil",

@@ -1,8 +1,7 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "impact_site" ],
+	"om_terrain": [ "impact_site" ],
     "weight": 100,
     "object": {
       "rows": [
@@ -39,8 +38,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "impact_platforms_center" ],
+	"om_terrain": [ "impact_platforms_center" ],
     "weight": 100,
     "object": {
       "fill_ter": "t_open_air",
@@ -78,8 +76,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "impact_platforms_left" ],
+	"om_terrain": [ "impact_platforms_left" ],
     "weight": 100,
     "object": {
       "fill_ter": "t_open_air",
@@ -116,8 +113,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "impact_platforms_right" ],
+	"om_terrain": [ "impact_platforms_right" ],
     "weight": 100,
     "object": {
       "fill_ter": "t_open_air",
@@ -154,8 +150,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "impact_temple_left" ],
+	"om_terrain": [ "impact_temple_left" ],
     "weight": 100,
     "object": {
       "fill_ter": "t_open_air",
@@ -201,8 +196,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "impact_temple_right" ],
+	"om_terrain": [ "impact_temple_right" ],
     "weight": 100,
     "object": {
       "fill_ter": "t_open_air",
@@ -249,8 +243,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "impact_temple_center" ],
+	"om_terrain": [ "impact_temple_center" ],
     "weight": 100,
     "object": {
       "fill_ter": "t_open_air",
@@ -302,8 +295,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "impact_roof_left" ],
+	"om_terrain": [ "impact_roof_left" ],
     "weight": 100,
     "//": "Only way to give temple a roof without changing layout",
     "object": {
@@ -339,8 +331,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "impact_roof_right" ],
+	"om_terrain": [ "impact_roof_right" ],
     "weight": 100,
     "object": {
       "fill_ter": "t_open_air",
@@ -375,8 +366,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "impact_roof_center" ],
+	"om_terrain": [ "impact_roof_center" ],
     "weight": 100,
     "object": {
       "fill_ter": "t_open_air",

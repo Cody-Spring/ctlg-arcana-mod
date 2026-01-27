@@ -1,8 +1,7 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "sanguine_holdout_1" ],
+	"om_terrain": [ "sanguine_holdout_1" ],
     "weight": 100,
     "object": {
       "rows": [
@@ -71,8 +70,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "sanguine_holdout_b1" ],
+	"om_terrain": [ "sanguine_holdout_b1" ],
     "weight": 100,
     "object": {
       "rows": [
@@ -146,8 +144,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "sanguine_holdout_2" ],
+	"om_terrain": [ "sanguine_holdout_2" ],
     "weight": 100,
     "object": {
       "rows": [
@@ -230,8 +227,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "sanguine_holdout_roof" ],
+	"om_terrain": [ "sanguine_holdout_roof" ],
     "weight": 100,
     "object": {
       "fill_ter": "t_open_air",

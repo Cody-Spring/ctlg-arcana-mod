@@ -1,8 +1,7 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "curious_structure_roof" ],
+	"om_terrain": [ "curious_structure_roof" ],
     "weight": 300,
     "object": {
       "fill_ter": "t_open_air",
@@ -37,8 +36,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "curious_structure_roof_2" ],
+	"om_terrain": [ "curious_structure_roof_2" ],
     "weight": 300,
     "object": {
       "fill_ter": "t_open_air",
@@ -73,8 +71,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "curious_structure" ],
+	"om_terrain": [ "curious_structure" ],
     "weight": 300,
     "object": {
       "rows": [
@@ -125,8 +122,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "curious_structure_2" ],
+	"om_terrain": [ "curious_structure_2" ],
     "weight": 300,
     "object": {
       "rows": [
@@ -174,8 +170,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "curious_structure_b" ],
+	"om_terrain": [ "curious_structure_b" ],
     "weight": 300,
     "object": {
       "rows": [
@@ -229,8 +224,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "curious_structure_b_2" ],
+	"om_terrain": [ "curious_structure_b_2" ],
     "weight": 300,
     "object": {
       "rows": [
@@ -272,8 +266,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "curious_structure_b2" ],
+	"om_terrain": [ "curious_structure_b2" ],
     "weight": 300,
     "object": {
       "rows": [
@@ -316,8 +309,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "curious_structure_b2_2" ],
+	"om_terrain": [ "curious_structure_b2_2" ],
     "weight": 300,
     "object": {
       "rows": [

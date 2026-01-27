@@ -1,8 +1,7 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "cf_church_1" ],
+	"om_terrain": [ "cf_church_1" ],
     "weight": 300,
     "object": {
       "rows": [
@@ -38,8 +37,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "cf_church_2" ],
+	"om_terrain": [ "cf_church_2" ],
     "weight": 300,
     "object": {
       "rows": [
@@ -88,8 +86,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "cf_church_3" ],
+	"om_terrain": [ "cf_church_3" ],
     "weight": 300,
     "object": {
       "rows": [
@@ -126,8 +123,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "cf_church_4" ],
+	"om_terrain": [ "cf_church_4" ],
     "weight": 300,
     "//": "Gothic style, converted to fit being occupied by survivors.  Side room converted into a kitchen, altar replaced with a stone hörgr, chancel opened up a bit, and arcanist books stashed in a makeshift parochet.",
     "object": {
@@ -193,8 +189,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "cf_church_1_roof" ],
+	"om_terrain": [ "cf_church_1_roof" ],
     "weight": 300,
     "object": {
       "fill_ter": "t_open_air",
@@ -229,8 +224,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "cf_church_2_roof" ],
+	"om_terrain": [ "cf_church_2_roof" ],
     "weight": 300,
     "object": {
       "fill_ter": "t_open_air",
@@ -265,8 +259,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "cf_church_3_roof" ],
+	"om_terrain": [ "cf_church_3_roof" ],
     "weight": 300,
     "object": {
       "fill_ter": "t_open_air",
@@ -301,8 +294,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "cf_church_4_roof" ],
+	"om_terrain": [ "cf_church_4_roof" ],
     "weight": 300,
     "object": {
       "fill_ter": "t_open_air",
