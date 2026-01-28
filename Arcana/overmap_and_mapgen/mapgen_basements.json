@@ -1,8 +1,7 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "arcanist_basement" ],
+	"om_terrain": [ "arcanist_basement" ],
     "weight": 75,
     "object": {
       "fill_ter": "t_soil",
@@ -58,8 +57,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "arcanist_basement_2" ],
+	"om_terrain": [ "arcanist_basement_2" ],
     "weight": 100,
     "object": {
       "fill_ter": "t_soil",
@@ -110,8 +108,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "arcanist_basement_2" ],
+	"om_terrain": [ "arcanist_basement_2" ],
     "weight": 50,
     "object": {
       "fill_ter": "t_soil",
@@ -173,8 +170,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "arcanist_basement" ],
+	"om_terrain": [ "arcanist_basement" ],
     "weight": 125,
     "object": {
       "fill_ter": "t_soil",
@@ -227,8 +223,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": "house_05_basement",
+	"om_terrain": "house_05_basement",
     "weight": 300,
     "//": "mostly empty basement, but hidden hint of some weirdness going on.",
     "object": {
@@ -287,8 +282,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": "house_prepper2_basement",
+	"om_terrain": "house_prepper2_basement",
     "weight": 500,
     "object": {
       "fill_ter": "t_thconc_floor",
@@ -372,8 +366,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": "house_fortified_basement",
+	"om_terrain": "house_fortified_basement",
     "weight": 500,
     "object": {
       "fill_ter": "t_thconc_floor",
@@ -457,8 +450,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "basement_survival" ],
+	"om_terrain": [ "basement_survival" ],
     "weight": 500,
     "object": {
       "fill_ter": "t_soil",
@@ -585,8 +577,7 @@
     }
   },
   {
-    "method": "json",
-    "om_terrain": "urban_18_1",
+	"om_terrain": "urban_18_1",
     "type": "mapgen",
     "weight": 500,
     "object": {
@@ -649,8 +640,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "cabin_strange_b" ],
+	"om_terrain": [ "cabin_strange_b" ],
     "weight": 450,
     "object": {
       "rows": [
@@ -703,8 +693,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "cathedral_b_SE" ],
+	"om_terrain": [ "cathedral_b_SE" ],
     "weight": 375,
     "object": {
       "fill_ter": "t_thconc_floor",

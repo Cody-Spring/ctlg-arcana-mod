@@ -1,8 +1,7 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "arcana_field_anomalous_buffer" ],
+	"om_terrain": [ "arcana_field_anomalous_buffer" ],
     "weight": 250,
     "object": {
       "fill_ter": "t_region_groundcover",
@@ -47,8 +46,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "arcana_structure_anomalous_entrance" ],
+	"om_terrain": [ "arcana_structure_anomalous_entrance" ],
     "weight": 250,
     "object": {
       "fill_ter": "t_region_groundcover_barren",
@@ -98,8 +96,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "arcana_structure_anomalous_surface" ],
+	"om_terrain": [ "arcana_structure_anomalous_surface" ],
     "weight": 250,
     "object": {
       "fill_ter": "t_region_groundcover_barren",
@@ -149,8 +146,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "arcana_structure_anomalous_underground" ],
+	"om_terrain": [ "arcana_structure_anomalous_underground" ],
     "weight": 250,
     "object": {
       "fill_ter": "t_rock",
@@ -216,8 +212,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "arcana_structure_anomalous_finale" ],
+	"om_terrain": [ "arcana_structure_anomalous_finale" ],
     "weight": 250,
     "object": {
       "fill_ter": "t_rock",
@@ -290,8 +285,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "arcana_structure_anomalous_roof" ],
+	"om_terrain": [ "arcana_structure_anomalous_roof" ],
     "weight": 250,
     "object": {
       "fill_ter": "t_open_air",

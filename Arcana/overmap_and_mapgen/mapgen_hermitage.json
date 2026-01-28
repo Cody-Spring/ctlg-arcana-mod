@@ -1,8 +1,7 @@
 [
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "arcana_hermitage_1" ],
+	"om_terrain": [ "arcana_hermitage_1" ],
     "weight": 300,
     "object": {
       "fill_ter": "t_dirt",
@@ -68,8 +67,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "arcana_hermitage_2" ],
+	"om_terrain": [ "arcana_hermitage_2" ],
     "weight": 300,
     "object": {
       "faction_owner": [
@@ -147,8 +145,7 @@
   },
   {
     "type": "mapgen",
-    "method": "json",
-    "om_terrain": [ "arcana_hermitage_roof" ],
+	"om_terrain": [ "arcana_hermitage_roof" ],
     "weight": 300,
     "object": {
       "rows": [
