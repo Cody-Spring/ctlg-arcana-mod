@@ -193,10 +193,7 @@
     "entries": [
       { "group": "default_zombie_death_drops" },
       {
-        "distribution": [
-          { "item": "monster_fang", "prob": 75 },
-          { "item": "graboid_fang", "prob": 10 }
-        ],
+        "distribution": [ { "item": "monster_fang", "prob": 75 }, { "item": "graboid_fang", "prob": 10 } ],
         "prob": 10
       },
       { "item": "essence_blood", "count": [ 2, 4 ], "prob": 25 }
@@ -209,10 +206,7 @@
     "entries": [
       { "group": "default_zombie_death_drops" },
       {
-        "distribution": [
-          { "item": "monster_fang", "prob": 75 },
-          { "item": "graboid_fang", "prob": 10 }
-        ],
+        "distribution": [ { "item": "monster_fang", "prob": 75 }, { "item": "graboid_fang", "prob": 10 } ],
         "prob": 25
       },
       { "item": "essence_blood", "count": [ 2, 4 ], "prob": 50 }
@@ -910,10 +904,7 @@
     "entries": [
       { "group": "default_zombie_clothes" },
       {
-        "distribution": [
-          { "item": "bone_twisted", "prob": 40 },
-          { "item": "iridescent_plate", "prob": 10 }
-        ],
+        "distribution": [ { "item": "bone_twisted", "prob": 40 }, { "item": "iridescent_plate", "prob": 10 } ],
         "prob": 10
       },
       { "item": "essence_blood", "prob": 25, "count": [ 2, 4 ] }
@@ -926,10 +917,7 @@
     "entries": [
       { "group": "default_zombie_clothes" },
       {
-        "distribution": [
-          { "item": "bone_twisted", "prob": 40 },
-          { "item": "iridescent_plate", "prob": 10 }
-        ],
+        "distribution": [ { "item": "bone_twisted", "prob": 40 }, { "item": "iridescent_plate", "prob": 10 } ],
         "prob": 25
       },
       { "item": "essence_blood", "prob": 50, "count": [ 2, 4 ] }
@@ -942,10 +930,7 @@
     "entries": [
       { "group": "mon_zombie_hulk_death_drops" },
       {
-        "distribution": [
-          { "item": "bone_twisted", "prob": 40 },
-          { "item": "iridescent_plate", "prob": 10 }
-        ],
+        "distribution": [ { "item": "bone_twisted", "prob": 40 }, { "item": "iridescent_plate", "prob": 10 } ],
         "prob": 50
       },
       { "item": "essence_blood", "count": [ 2, 4 ] }
@@ -994,10 +979,7 @@
     "entries": [
       { "group": "mon_zombie_hulk_death_drops" },
       {
-        "distribution": [
-          { "item": "bone_twisted", "prob": 40 },
-          { "item": "iridescent_plate", "prob": 10 }
-        ],
+        "distribution": [ { "item": "bone_twisted", "prob": 40 }, { "item": "iridescent_plate", "prob": 10 } ],
         "prob": 50
       },
       { "item": "inflorescent_root", "prob": 25 },
@@ -1296,30 +1278,8 @@
     }
   },
   {
-    "id": "mon_feral_prepper_mace_death_drops",
-    "copy-from": "mon_feral_prepper_mace_death_drops",
-    "type": "item_group",
-    "//": "Only need to add items since we're referencing an existing itemgroup.",
-    "subtype": "collection",
-    "extend": {
-      "entries": [
-        { "item": "essence_blood", "prob": 50, "count": [ 2, 4 ] },
-        { "group": "arcana_hunt_random", "prob": 10 },
-        {
-          "distribution": [
-            { "group": "magic_tools", "prob": 50, "damage": [ 1, 4 ] },
-            { "group": "magic_items", "prob": 50, "damage": [ 1, 4 ] }
-          ],
-          "prob": 3
-        },
-        { "group": "magic_consumables", "prob": 5 },
-        { "group": "magic_books_postapoc", "prob": 15 }
-      ]
-    }
-  },
-  {
-    "id": "mon_feral_prepper_knife_death_drops",
-    "copy-from": "mon_feral_prepper_knife_death_drops",
+    "id": "mon_feral_prepper_death_drops",
+    "copy-from": "mon_feral_prepper_death_drops",
     "type": "item_group",
     "//": "Only need to add items since we're referencing an existing itemgroup.",
     "subtype": "collection",
@@ -1428,22 +1388,8 @@
     }
   },
   {
-    "id": "feral_swimmer_death_drops_kickboard",
-    "copy-from": "feral_swimmer_death_drops_kickboard",
-    "type": "item_group",
-    "//": "Adds items since we're referencing an existing itemgroup.",
-    "subtype": "collection",
-    "extend": {
-      "entries": [
-        { "item": "essence_blood", "prob": 25, "count": [ 2, 4 ] },
-        { "group": "arcana_hunt_random", "prob": 10 },
-        { "group": "magic_books_postapoc", "prob": 5 }
-      ]
-    }
-  },
-  {
-    "id": "feral_diver_death_drops_knife",
-    "copy-from": "feral_diver_death_drops_knife",
+    "id": "mon_feral_sailor_death_drops",
+    "copy-from": "mon_feral_sailor_death_drops",
     "type": "item_group",
     "//": "Adds items since we're referencing an existing itemgroup.",
     "subtype": "collection",
@@ -1495,22 +1441,6 @@
     "//": "Only need to add items since we're referencing an existing itemgroup.",
     "subtype": "collection",
     "extend": { "entries": [ { "group": "strange_zombie_death_drops", "prob": 90 } ] }
-  },
-  {
-    "id": "jackson_drops",
-    "copy-from": "jackson_drops",
-    "type": "item_group",
-    "//": "The only being without the queen flag to drop boss-level essence, also gives high odds of magical gear.  Only need to add items since we're referencing an existing itemgroup.",
-    "subtype": "collection",
-    "extend": {
-      "entries": [
-        { "group": "magic_items", "prob": 25, "damage": [ 1, 4 ] },
-        { "group": "magic_consumables", "prob": 50 },
-        { "group": "magic_books_postapoc", "prob": 75 },
-        { "group": "magic_tools", "prob": 25, "damage": [ 1, 4 ] },
-        { "item": "essence_blood", "count": [ 7, 14 ] }
-      ]
-    }
   },
   {
     "id": "marloss_yellow_drops",
@@ -1657,13 +1587,7 @@
     "type": "item_group",
     "subtype": "collection",
     "entries": [
-      {
-        "distribution": [
-          { "group": "arcana_hunt_random", "prob": 75 },
-          { "item": "bone_twisted", "prob": 5 }
-        ],
-        "prob": 10
-      },
+      { "distribution": [ { "group": "arcana_hunt_random", "prob": 75 }, { "item": "bone_twisted", "prob": 5 } ], "prob": 10 },
       { "item": "essence_blood", "count": [ 2, 4 ], "prob": 15 }
     ]
   },
@@ -1703,13 +1627,7 @@
     "subtype": "collection",
     "entries": [
       { "group": "robots", "prob": 80 },
-      {
-        "distribution": [
-          { "item": "iron_thorn", "prob": 40 },
-          { "item": "bone_twisted", "prob": 30 }
-        ],
-        "prob": 10
-      },
+      { "distribution": [ { "item": "iron_thorn", "prob": 40 }, { "item": "bone_twisted", "prob": 30 } ], "prob": 10 },
       {
         "distribution": [
           { "item": "vortex_shard", "prob": 35 },
@@ -1900,12 +1818,7 @@
       { "group": "cleansing_flame_books_postapoc", "prob": 75 },
       { "group": "cleansing_flame_books_postapoc", "prob": 50 },
       { "group": "cleansing_flame_books_postapoc", "prob": 25 },
-      {
-        "distribution": [
-          { "item": "hexenhammer", "prob": 75, "damage": [ 1, 4 ] }
-        ],
-        "prob": 75
-      }
+      { "distribution": [ { "item": "hexenhammer", "prob": 75, "damage": [ 1, 4 ] } ], "prob": 75 }
     ]
   },
   {
@@ -2050,13 +1963,7 @@
     "id": "mon_zombear_death_drops",
     "subtype": "collection",
     "entries": [
-      {
-        "distribution": [
-          { "item": "monster_fang", "prob": 50 },
-          { "item": "graboid_fang", "prob": 50 }
-        ],
-        "prob": 10
-      },
+      { "distribution": [ { "item": "monster_fang", "prob": 50 }, { "item": "graboid_fang", "prob": 50 } ], "prob": 10 },
       { "item": "essence_blood", "prob": 10, "count": [ 2, 4 ] }
     ]
   },

@@ -184,7 +184,7 @@
     "name": "shimmering barrier",
     "description": "A strange wavering distortion in the air, offering the faintest hint of illumination.  It hardens into a crackling wall of light when struck, examining it will allow you to dismiss it.",
     "symbol": "#",
-    "looks_like": "t_reinforced_glass",
+    "looks_like": "t_laminated_glass",
     "bgcolor": [ "blue" ],
     "move_cost_mod": -2,
     "light_emitted": 1,
@@ -231,7 +231,7 @@
       "items": [ { "item": "transmutation_crucible", "prob": 75 }, { "item": "rock", "count": [ 2, 7 ] } ]
     },
     "examine_action": "workbench",
-    "workbench": { "multiplier": 1.05, "mass": 500000, "volume": "500L" }
+    "workbench": { "multiplier": 1.05, "mass": "500000 g", "volume": "500L" }
   },
   {
     "id": "f_arcana_dimension_doorway",

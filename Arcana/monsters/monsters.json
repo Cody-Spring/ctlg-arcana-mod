@@ -392,7 +392,7 @@
     "death_drops": {  },
     "special_attacks": [ { "id": "ranged_pull", "cooldown": 20 }, [ "LUNGE", 10 ] ],
     "extend": { "flags": [ "SEES", "PATH_AVOID_DANGER", "PRIORITIZE_TARGETS", "PET_MOUNTABLE" ] },
-    "delete": { "flags": [ "BASHES", "GROUP_BASH", "ATTACKMON" ] }
+    "delete": { "flags": [ "BASHES", "GROUP_BASH" ] }
   },
   {
     "id": "mon_dog_skeleton_summoned",
@@ -527,7 +527,7 @@
     "special_attacks": [ { "type": "bite", "cooldown": 5 } ],
     "special_when_hit": [ "ZAPBACK", 50 ],
     "extend": { "flags": [ "PATH_AVOID_DANGER", "PRIORITIZE_TARGETS", "PET_HARNESSABLE" ] },
-    "delete": { "flags": [ "ATTACKMON" ] }
+    "delete": { "flags": [  ] }
   },
   {
     "id": "mon_hunting_horror_summoned",
@@ -565,8 +565,7 @@
     "special_attacks": [ { "id": "scratch", "damage_max_instance": [ { "damage_type": "cut", "amount": 23, "armor_multiplier": 0.8 } ] } ],
     "death_drops": "mon_bound_glyph_death_drops_universal",
     "revert_to_itype": "summon_mi_go_bound",
-    "extend": { "flags": [ "PET_HARNESSABLE" ] },
-    "delete": { "flags": [ "BASHES" ] }
+    "extend": { "flags": [ "PET_HARNESSABLE" ] }
   },
   {
     "id": "mon_flying_polyp_summoned",
@@ -585,7 +584,7 @@
     "revert_to_itype": "summon_flying_polyp_bound",
     "special_attacks": [ { "type": "bite", "cooldown": 20, "damage_max_instance": [ { "damage_type": "cold", "amount": 20 } ] } ],
     "extend": { "flags": [ "SEES", "PATH_AVOID_DANGER", "PRIORITIZE_TARGETS", "PET_HARNESSABLE" ] },
-    "delete": { "flags": [ "BASHES", "ATTACKMON" ] }
+    "delete": { "flags": [ "BASHES" ] }
   },
   {
     "id": "mon_shoggoth_summoned",

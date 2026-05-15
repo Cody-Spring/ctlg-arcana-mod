@@ -1,7 +1,7 @@
 [
   {
     "type": "mapgen",
-	"om_terrain": [ [ "lab_arcane_1_1", "lab_arcane_1_2", "lab_arcane_1_3" ], [ "lab_arcane_1_4", "lab_arcane_1_5", "lab_arcane_1_6" ] ],
+    "om_terrain": [ [ "lab_arcane_1_1", "lab_arcane_1_2", "lab_arcane_1_3" ], [ "lab_arcane_1_4", "lab_arcane_1_5", "lab_arcane_1_6" ] ],
     "weight": 1000,
     "object": {
       "rows": [
@@ -67,7 +67,7 @@
         "|": "t_strconc_wall",
         "=": "t_door_metal_locked",
         "&": "t_gates_mech_control_lab",
-        "-": "t_reinforced_door_glass_c",
+        "-": "t_laminated_door_glass_c",
         "+": "t_door_glass_frosted_lab_c",
         ">": "t_stairs_down",
         "3": "t_thconc_floor",
@@ -80,7 +80,7 @@
         "O": "t_strconc_floor",
         "T": "t_strconc_floor",
         "V": "t_strconc_floor",
-        "W": "t_reinforced_glass",
+        "W": "t_laminated_glass",
         "X": "t_door_bar_locked",
         "Y": "t_utility_light",
         "b": "t_strconc_floor",
@@ -175,7 +175,7 @@
   },
   {
     "type": "mapgen",
-	"om_terrain": [ [ "lab_arcane_2_1", "lab_arcane_2_2", "lab_arcane_2_3" ], [ "lab_arcane_2_4", "lab_arcane_2_5", "lab_arcane_2_6" ] ],
+    "om_terrain": [ [ "lab_arcane_2_1", "lab_arcane_2_2", "lab_arcane_2_3" ], [ "lab_arcane_2_4", "lab_arcane_2_5", "lab_arcane_2_6" ] ],
     "weight": 1000,
     "object": {
       "rows": [
@@ -241,7 +241,7 @@
         "=": "t_door_metal_locked",
         "+": "t_door_glass_frosted_lab_c",
         "&": "t_gates_mech_control_lab",
-        "-": "t_reinforced_door_glass_c",
+        "-": "t_laminated_door_glass_c",
         ">": "t_stairs_down",
         "<": "t_stairs_up",
         "1": "t_switchgear_s",
@@ -259,7 +259,7 @@
         "S": "t_strconc_floor",
         "T": "t_strconc_floor",
         "V": "t_strconc_floor",
-        "W": "t_reinforced_glass",
+        "W": "t_laminated_glass",
         "X": "t_door_bar_locked",
         "Y": "t_utility_light",
         "b": "t_strconc_floor",
@@ -377,7 +377,7 @@
   },
   {
     "type": "mapgen",
-	"om_terrain": [ [ "lab_arcane_3_1", "lab_arcane_3_2", "lab_arcane_3_3" ], [ "lab_arcane_3_4", "lab_arcane_3_5", "lab_arcane_3_6" ] ],
+    "om_terrain": [ [ "lab_arcane_3_1", "lab_arcane_3_2", "lab_arcane_3_3" ], [ "lab_arcane_3_4", "lab_arcane_3_5", "lab_arcane_3_6" ] ],
     "weight": 1000,
     "object": {
       "rows": [
@@ -464,7 +464,7 @@
         "R": "t_strconc_floor",
         "S": "t_strconc_floor",
         "T": "t_strconc_floor",
-        "W": "t_reinforced_glass",
+        "W": "t_laminated_glass",
         "X": "t_door_bar_locked",
         "Y": "t_utility_light",
         "b": "t_strconc_floor",
@@ -609,7 +609,7 @@
   },
   {
     "type": "mapgen",
-	"om_terrain": [ [ "lab_arcane_4_1", "lab_arcane_4_2", "lab_arcane_4_3" ], [ "lab_arcane_4_4", "lab_arcane_4_5", "lab_arcane_4_6" ] ],
+    "om_terrain": [ [ "lab_arcane_4_1", "lab_arcane_4_2", "lab_arcane_4_3" ], [ "lab_arcane_4_4", "lab_arcane_4_5", "lab_arcane_4_6" ] ],
     "weight": 1000,
     "object": {
       "rows": [
@@ -706,7 +706,7 @@
         "S": "t_strconc_floor",
         "T": "t_strconc_floor",
         "V": "t_strconc_floor",
-        "W": "t_reinforced_glass",
+        "W": "t_laminated_glass",
         "X": "t_door_bar_locked",
         "Y": "t_utility_light",
         "b": "t_strconc_floor",
@@ -797,7 +797,7 @@
         "O": { "item": "lab_magitech_general", "chance": 50, "repeat": 3 },
         "d": { "item": "office_supplies", "chance": 70, "repeat": 3 },
         "o": { "item": "oven", "chance": 50, "repeat": 2 },
-        "t": { "item": "trash"},
+        "t": { "item": "trash" },
         "s": { "item": "cleaning", "chance": 50, "repeat": 5 }
       },
       "place_loot": [
@@ -881,12 +881,12 @@
   },
   {
     "type": "mapgen",
-        "nested_mapgen_id": "lab_arcane_4_4_rads",
+    "nested_mapgen_id": "lab_arcane_4_4_rads",
     "object": { "mapgensize": [ 12, 12 ], "set": [ { "square": "radiation", "amount": 50, "x": 0, "y": 0, "x2": 0, "y2": 11 } ] }
   },
   {
     "type": "mapgen",
-        "nested_mapgen_id": "lab_arcane_4_5_rads",
+    "nested_mapgen_id": "lab_arcane_4_5_rads",
     "object": {
       "mapgensize": [ 12, 12 ],
       "set": [
